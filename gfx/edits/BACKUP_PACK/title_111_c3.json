@@ -1,0 +1,35 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#111",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#112",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#113",
+ "cell": 3,
+ "_note": "Event title 腑に落ちないことがある -> Something Doesn't Add Up (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    0,
+    120,
+    16
+   ],
+   "text": "Something Doesn't Add Up",
+   "font": "arialn.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "bold": true
+  }
+ ]
+}

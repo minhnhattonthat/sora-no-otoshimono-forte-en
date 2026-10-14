@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#132",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#133",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#134",
+ "cell": 2,
+ "_note": "Event title その男、守形 -> That Man, Sugata (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "That Man, Sugata",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#165",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#166",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#167",
+ "cell": 2,
+ "_note": "Event title 宝物の価値は -> What a Treasure Is Worth (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "What a Treasure Is Worth",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

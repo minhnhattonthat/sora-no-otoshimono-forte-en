@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#72",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#73",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#74",
+ "cell": 2,
+ "_note": "Event title さがしもの -> Something Lost (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Something Lost",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

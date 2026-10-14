@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#39",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#40",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#41",
+ "cell": 2,
+ "_note": "Event title 守形先輩の研究 -> Sugata-senpai's Research (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    0,
+    120,
+    16
+   ],
+   "text": "Sugata-senpai's Research",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

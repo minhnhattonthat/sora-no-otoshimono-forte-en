@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#219",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#220",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#221",
+ "cell": 2,
+ "_note": "Event title Δマスター -> Delta Master (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Delta Master",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

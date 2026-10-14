@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#231",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#232",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#233",
+ "cell": 2,
+ "_note": "Event title クリアデータ -> Clear Data (not in misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Clear Data",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

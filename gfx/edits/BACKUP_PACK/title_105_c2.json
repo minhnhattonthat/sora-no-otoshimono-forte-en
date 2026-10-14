@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#105",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#106",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#107",
+ "cell": 2,
+ "_note": "Event title あの……私も…… -> Um... Me Too... (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Um... Me Too...",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

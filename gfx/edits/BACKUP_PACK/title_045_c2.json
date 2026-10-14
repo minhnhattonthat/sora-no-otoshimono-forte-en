@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#45",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#46",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#47",
+ "cell": 2,
+ "_note": "Event title そはらの好きなもの -> What Sohara Likes (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "What Sohara Likes",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

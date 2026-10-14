@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#57",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#58",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#59",
+ "cell": 2,
+ "_note": "Event title 智樹先生ありがとう ３ -> Thanks, Tomoki-sensei 3 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    0,
+    120,
+    16
+   ],
+   "text": "Thanks, Tomoki-sensei 3",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

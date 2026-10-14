@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#33",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#34",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#35",
+ "cell": 2,
+ "_note": "Event title 普段どおりの守形先輩 -> Sugata-senpai as Usual (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Sugata-senpai as Usual",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

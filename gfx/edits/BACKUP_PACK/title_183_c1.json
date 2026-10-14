@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#183",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#184",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#185",
+ "cell": 1,
+ "_note": "Event title 天国に一番近い場所 -> Closest Place to Heaven (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Closest Place to Heaven",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

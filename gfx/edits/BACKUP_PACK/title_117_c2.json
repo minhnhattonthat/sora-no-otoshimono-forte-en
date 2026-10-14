@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#117",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#118",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#119",
+ "cell": 2,
+ "_note": "Event title 智樹のお遣い ２ -> Tomoki's Errand 2 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Tomoki's Errand 2",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

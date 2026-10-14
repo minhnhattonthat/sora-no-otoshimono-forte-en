@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#96",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#97",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#98",
+ "cell": 1,
+ "_note": "Event title バカに毒キノコ -> An Idiot and a Toadstool (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "An Idiot and a Toadstool",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

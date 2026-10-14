@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#66",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#67",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#68",
+ "cell": 2,
+ "_note": "Event title 会長と道徳テスト -> The Morality Test (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "The Morality Test",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

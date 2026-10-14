@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#78",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#79",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#80",
+ "cell": 2,
+ "_note": "Event title 新大陸講義 ２ -> New World Lecture 2 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "New World Lecture 2",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

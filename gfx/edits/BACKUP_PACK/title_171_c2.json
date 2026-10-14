@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#171",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#172",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#173",
+ "cell": 2,
+ "_note": "Event title 会長の別の顔？ -> The President Unmasked? (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    0,
+    120,
+    16
+   ],
+   "text": "The President Unmasked?",
+   "font": "arialnb.ttf:11",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

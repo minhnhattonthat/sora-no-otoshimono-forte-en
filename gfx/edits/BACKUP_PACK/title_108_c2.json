@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#108",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#109",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#110",
+ "cell": 2,
+ "_note": "Event title 悪魔の仕業か神業か -> Devil's Work or Divine? (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Devil's Work or Divine?",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#150",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#151",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#152",
+ "cell": 1,
+ "_note": "Event title そはらとアイス -> Ice Cream with Sohara (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Ice Cream with Sohara",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

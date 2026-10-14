@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#189",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#190",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#191",
+ "cell": 1,
+ "_note": "Event title ＋１人いる！ ２ -> There's One More! 2 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "There's One More! 2",
+   "font": "arialnb.ttf:13",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

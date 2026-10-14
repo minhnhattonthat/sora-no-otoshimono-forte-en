@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#138",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#139",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#140",
+ "cell": 3,
+ "_note": "Event title 寄せる波は乙女心 -> Waves of a Maiden Heart (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Waves of a Maiden Heart",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

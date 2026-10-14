@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#24",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#25",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#26",
+ "cell": 3,
+ "_note": "Event title 白昼の大脱走 -> Great Daytime Escape (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Great Daytime Escape",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

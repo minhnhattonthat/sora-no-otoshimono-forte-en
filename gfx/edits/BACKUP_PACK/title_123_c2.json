@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#123",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#124",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#125",
+ "cell": 2,
+ "_note": "Event title 煩悩は爆発だ！ ３ -> Lust Is an Explosion! 3 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Lust Is an Explosion! 3",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

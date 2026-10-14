@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#42",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#43",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#44",
+ "cell": 3,
+ "_note": "Event title 未来への希望を胸に -> Hope for the Future (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Hope for the Future",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

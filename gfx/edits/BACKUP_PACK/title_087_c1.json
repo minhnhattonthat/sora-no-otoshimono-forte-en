@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#87",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#88",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#89",
+ "cell": 1,
+ "_note": "Event title エンジェロイドの夜 ３ -> Angeloid Night 3 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Angeloid Night 3",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

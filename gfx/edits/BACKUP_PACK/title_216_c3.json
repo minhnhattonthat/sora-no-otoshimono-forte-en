@@ -1,0 +1,35 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#216",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#217",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#218",
+ "cell": 3,
+ "_note": "Event title 幼なじみよ永遠に…… -> Childhood Friends Forever... (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    0,
+    120,
+    16
+   ],
+   "text": "Childhood Friends Forever...",
+   "font": "arialn.ttf:11",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "bold": true
+  }
+ ]
+}

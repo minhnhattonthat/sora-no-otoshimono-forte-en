@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#159",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#160",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#161",
+ "cell": 2,
+ "_note": "Event title 妄想はどこまでも ３ -> Endless Delusions 3 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Endless Delusions 3",
+   "font": "arialnb.ttf:13",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

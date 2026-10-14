@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#195",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#196",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#197",
+ "cell": 1,
+ "_note": "Event title 智樹包囲網を破れ！ -> Break Tomoki's Blockade! (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    0,
+    120,
+    16
+   ],
+   "text": "Break Tomoki's Blockade!",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

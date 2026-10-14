@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#192",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#193",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#194",
+ "cell": 2,
+ "_note": "Event title 妄想コスプレ喫茶 -> Delusion Cosplay Cafe (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Delusion Cosplay Cafe",
+   "font": "arialnb.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

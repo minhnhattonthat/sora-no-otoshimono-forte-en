@@ -1,0 +1,34 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#204",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#205",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#206",
+ "cell": 1,
+ "_note": "Event title 本物のおむすびを -> A Real Rice Ball (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "A Real Rice Ball",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}
