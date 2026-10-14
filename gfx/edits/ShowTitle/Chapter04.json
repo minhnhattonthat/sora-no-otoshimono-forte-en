@@ -1,0 +1,67 @@
+{
+  "file": "_Data/ShowTitle/ShowTitle_Chapter04_TEX_LZ.NCBR",
+  "ops": [
+    {
+      "op": "fill",
+      "rect": [
+        35,
+        0,
+        58,
+        24
+      ],
+      "color": "transparent"
+    },
+    {
+      "op": "text",
+      "rect": [
+        34,
+        3,
+        60,
+        18
+      ],
+      "text": "Episode 5",
+      "font": "ARIALNB.TTF:14",
+      "color": "#0883e6",
+      "outline": "#ffffff",
+      "align": "center",
+      "valign": "middle"
+    },
+    {
+      "op": "fill",
+      "rect": [
+        0,
+        24,
+        256,
+        32
+      ],
+      "color": "transparent"
+    },
+    {
+      "op": "text",
+      "rect": [
+        2,
+        25,
+        250,
+        30
+      ],
+      "text": "Endless Delusions",
+      "font": "comicz.ttf:18",
+      "color": "#f652de",
+      "outline": "#ffffff",
+      "align": "left",
+      "valign": "middle",
+      "wrap": false
+    },
+    {
+      "op": "layout",
+      "dat": "_Data/ShowTitle/ShowTitle_Chapter04_TEX.dat",
+      "index": 1,
+      "rect": [
+        0,
+        24,
+        167,
+        55
+      ]
+    }
+  ]
+}
