@@ -7,7 +7,9 @@ end, an odd length is padded with one space.
 import re
 
 TOKEN = re.compile(r'\{([0-9A-F]{2})\}|\n')
-LINE_PX = 216          # 18 full-width cells x 12 px; verified in-game (docs/re/script.md)
+# ☆ ♪ ♥ are drawn from unused ASCII slots (vwf.SYMBOLS) so they stay single-byte: no padding space before them
+SYMBOLS = {'☆': b'^', '♪': b'`', '♥': b'|'}
+LINE_PX = 216         # 18 full-width cells x 12 px; verified in-game (docs/re/script.md)
 MAX_LINES = 3
 
 
@@ -58,7 +60,7 @@ def encode_en(s):
             out += v
             continue
         for ch in v:
-            b = ch.encode('cp932') if ch != '♥' else b'\x83\xb6'  # the font draws a heart at Ω (0x83B6)
+            b = SYMBOLS[ch] if ch in SYMBOLS else ch.encode('cp932')
             if len(b) == 2:
                 pad()
             out += b

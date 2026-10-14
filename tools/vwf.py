@@ -63,14 +63,47 @@ def font_widths(nftr):
     table = bytearray([6] * 256)  # bytes >= 0x80 never reach the table; 6 keeps a stray one harmless
     for c in range(0x20):
         table[c] = 0
+    plgc = struct.unpack_from('<I', f, 0x10 + 0x10)[0]
+    tsz = struct.unpack_from('<H', f, plgc + 2)[0]
     for c in range(0x20, 0x7f):
         g = c - 0x20  # ASCII glyphs 0..94 map to 0x20..0x7e (CMAP direct block)
         o = hdwc + 8 + 3 * g
+        if c in SYMBOLS:  # copy a full-width symbol into this unused ASCII slot (single byte = no padding space)
+            src = glyph_index(f, SYMBOLS[c])
+            f[plgc + 8 + g * tsz:plgc + 8 + (g + 1) * tsz] = f[plgc + 8 + src * tsz:plgc + 8 + (src + 1) * tsz]
+            ink = f[hdwc + 8 + 3 * src + 1]
+            f[o:o + 3] = bytes([1, ink, ink + 2])
+            table[c] = ink + 2
+            continue
         ink = f[o + 1]
         adv = SPACE_ADV if c == 0x20 else ink + 1
         f[o], f[o + 2] = 0, adv
         table[c] = adv
     return bytes(f), bytes(table)
+
+
+# ASCII byte -> Shift-JIS code of the symbol drawn there: ^ = ☆, ` = ♪, | = heart (the font's Ω glyph)
+SYMBOLS = {0x5E: 0x8199, 0x60: 0x81F4, 0x7C: 0x83B6}  # textfmt.SYMBOLS maps the characters to these bytes
+
+
+def glyph_index(f, code):
+    pamc = struct.unpack_from('<I', f, 0x10 + 0x18)[0]
+    p = pamc
+    while p:
+        lo, hi, typ, nxt = struct.unpack_from('<HHHxxI', f, p)
+        body = p + 12
+        if lo <= code <= hi:
+            if typ == 0:
+                return struct.unpack_from('<H', f, body)[0] + code - lo
+            if typ == 1:
+                return struct.unpack_from('<H', f, body + 2 * (code - lo))[0]
+        if typ == 2:
+            for i in range(struct.unpack_from('<H', f, body)[0]):
+                c, g = struct.unpack_from('<HH', f, body + 2 + 4 * i)
+                if c == code:
+                    return g
+        p = nxt
+    raise KeyError(hex(code))
 
 
 def assemble(code, addr):

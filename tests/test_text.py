@@ -50,3 +50,4 @@ def test_encode_en_even_units():
     assert textfmt.encode_en('abc') == b'abc '
     assert textfmt.encode_en('ab\ncd') == b'ab\x1b\x01cd'
     assert textfmt.encode_en('a…') == b'a \x81\x63'
+    assert textfmt.encode_en('TOMO☆KI♥') == b'TOMO^KI|'
