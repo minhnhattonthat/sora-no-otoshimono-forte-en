@@ -58,3 +58,6 @@ Files written and entry count; then any lines: `NEW TERM: jp -> en`, `UNSURE: id
   "pampering" ("Pampering Time"), 殺人チョップ "Killer Chop". Keep -san/-chan exactly where the Japanese has them.
 - Big-text SFX lines (`{1F}{xx}` codes): keep each code at the start of its line as in the Japanese.
 - Sugata's 部長 = "club head", never "President".
+- (b013-b032) 先生 used as a title/address = "Sensei" (Tomoki-sensei); a plain noun = "teacher". Speaker labels
+  (form name) must fit 72 px: "Tomoki&Sohara" style without spaces is fine for the 智樹＆○○ names.
+- `{16}{17}` / `{16}{15}` / `{15}{16}` codes are special glyph pairs; copy them where they are, with a space on each side.

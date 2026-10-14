@@ -92,6 +92,32 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | エロ本 | porn magazine | | | |
 | 美香子様 | Lady Mikako | | | |
 | ナース服 / チアガール服 / ドレス | nurse outfit / cheerleader outfit / dress | | capitalised when addressed as a name | |
+| 先生 / センセイ (as a title or address) | Sensei; 智樹先生 -> Tomoki-sensei | | plain noun = teacher | Teacher (as address), Mr. Tomoki |
+| 先生ジャミング / モテ男ジャミング | Teacher Jamming / Ladies' Man Jamming | | Synapse items | Chick Magnet Jamming |
+| ししょう / 師匠 (Astraea to Mikako) | Mentor | | | Master |
+| シール | sticker | | the Card-made invisibility sticker (ch02) | |
+| 宝探し(ゲーム) | Treasure Hunt (Game) | | | |
+| 素直モード | Honest Mode | | | |
+| 量子食材変換器 | Quantum Food Converter | | | |
+| 永久追尾空対空弾アルテミス | Perpetual Homing Air-to-Air Missile Artemis | | | Tracking |
+| 超々高熱体圧縮対艦砲 | Ultra-High-Heat Compressed Anti-Ship Cannon | | | |
+| アルテミス | Artemis | | | |
+| 動力炉 | power core | | | |
+| お仕置きタイム | Punishment Time | | | |
+| ヴァカ | iiidiot | | mocking "baka" | |
+| けしからん | outrageous | | running gag | |
+| 英くん | Ei-kun | | Mikako's pet name for Sugata | |
+| 身体測定 | body measurements; Astraea's シンタイソクテイ -> "Bodymeasurement" | | | |
+| 暴れん棒 | rowdy rod | | pun on 暴れん坊 (Tomoki's crotch); 相棒 -> partner | rampaging rod |
+| 矯正施設 | reform facility | | | correctional facility |
+| 首輪 | collar | | | |
+| 妄想ゲージ / エロゲージ | Delusion Gauge / Pervy Gauge | | | |
+| ゴキブリ桜井 | Cockroach Sakurai | | | |
+| ＴＯＭＯ☆ＫＩ | TOMO☆KI | | | |
+| エロい！ (punchline) | Lewd! | | | sexy |
+| かいちょー (Nymph) | the President | | | Prez |
+| 浮き輪 | swim ring | | | |
+| ちゅどーん / カチッ / チッチッチッ | KA-BOOOOOOM!! / Click! / Tick, tick, tick... | | collar bomb SFX | |
 
 ## Decisions from earlier batches
 - (b001-b012) -san kept wherever the Japanese has it (Sohara-san from mock-polite Tomoki, Ikaros-san, Mitsuki-san from

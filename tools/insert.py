@@ -5,11 +5,13 @@ MARKER=1 in the environment replaces every msg with its id instead (marker build
 """
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 import ndspy.rom  # noqa: E402
 import extract  # noqa: E402
+import misctext  # noqa: E402
 import romfs  # noqa: E402
 import script  # noqa: E402
 import textfmt  # noqa: E402
@@ -61,11 +63,25 @@ def rewrite(path, data, repl):
     return script.build(sid, unk, walk(cmds), tail)
 
 
+SFX = re.compile(r'^\{1F\}\{[0-9A-F]{2}\}')
+
+
+def center_sfx(line):
+    """'{1F}{xx}' indents a line by (xx - 0x0B) * 6 px (callback 0x0208F0EC); the Japanese values center Japanese
+    text, so recompute xx to center the English."""
+    m = SFX.match(line)
+    if not m:
+        return line
+    w = textfmt.width(line[m.end():], ADV)
+    xx = 0x0B + max(0, round((textfmt.LINE_PX - w) / 2 / 6))
+    return '{1F}{%02X}' % xx + line[m.end():]
+
+
 def boxes(en, kind):
     """English msg -> bytes, or a list of bytes when it needs more than one 3-line box."""
     if kind != 'msg':
         return textfmt.encode_en(en)
-    lines = textfmt.wrap(en, ADV).split('\n')
+    lines = [center_sfx(ln) for ln in textfmt.wrap(en, ADV).split('\n')]
     if len(lines) <= textfmt.MAX_LINES:
         return textfmt.encode_en('\n'.join(lines))
     nbox = -(-len(lines) // textfmt.MAX_LINES)
@@ -119,6 +135,7 @@ def apply(rom, ids, marker=None):
 
     fid = ids['_Data/AdvTalk/CharaName.dat']
     rom.replace(fid, chara_names(rom.read(fid), load_names()))
+    misctext.apply(rom, ids)
 
     r = ndspy.rom.NintendoDSRom.fromFile(romfs.ROM)
     rom.set_arm9(vwf.patch_arm9(r.arm9, r.arm9RamAddress, r.arm9CodeSettingsPointerAddress, table))

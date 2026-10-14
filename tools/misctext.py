@@ -1,6 +1,6 @@
 """Small data files with u8-length-prefixed strings: event titles, emblems, gallery lists, option help.
 
-python -X utf8 tools/misctext.py extract   -> text/ja/misc/strings.json (unique strings per file)
+python -X utf8 tools/misctext.py   -> text/ja/misc.json (unique strings per file)
 Translations: text/en/misc.json {"Japanese": "English"}. A Japanese string not found verbatim is matched by its
 longest translated prefix + the untranslated rest (gallery labels like コミュニケーション0123 -> Communication 0123).
 apply(rom, ids) is called by insert.py.
@@ -63,13 +63,16 @@ def load_en():
 def translator(en):
     keys = sorted(en, key=len, reverse=True)
 
+    def enc(t):
+        return t.replace('♥', 'Ω').encode('cp932')  # the font draws a heart at Ω
+
     def tr(b):
         s = b.decode('cp932')
         if s in en:
-            return en[s].encode('cp932')
+            return enc(en[s])
         for k in keys:
             if s.startswith(k) and s[len(k):].isascii():
-                return (en[k] + s[len(k):]).encode('cp932')
+                return enc(en[k] + s[len(k):])
         return None
     return tr
 
@@ -87,8 +90,7 @@ def extract():
         seen = []
         rebuild(p, bytes(rom.files[ids[p]]), lambda b: seen.append(b.decode('cp932')))
         out[p] = list(dict.fromkeys(seen))
-    os.makedirs(os.path.join(ROOT, 'text', 'ja', 'misc'), exist_ok=True)
-    with open(os.path.join(ROOT, 'text', 'ja', 'misc', 'strings.json'), 'w', encoding='utf-8', newline='\n') as f:
+    with open(os.path.join(ROOT, 'text', 'ja', 'misc.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(out, f, ensure_ascii=False, indent=0)
     print({p: len(v) for p, v in out.items()})
 
