@@ -57,6 +57,20 @@ List a folder's files with `python -X utf8 -c "import sys; sys.path.insert(0,'to
 - Many files carry identical text (e.g. 22 result banners). You may generate those spec files with a small Python
   script kept in your scratchpad (not in tools/), as long as you preview-check several of them.
 
+## Pack entries
+`_Data/EventList/EVENTLIST_PACK.bin`, `_Data/Gallery/ALBUM_PACK.bin`, `_Data/BackUp/BACKUP_PACK.bin` are archives:
+address an entry as `"<pack path>#<index>"` in file/palette/screen/cells/dat fields. `python -X utf8 tools/pack.py list
+<pack>` lists entries (RGCN = image, RLCN = palette, RCSN = screen, RECN = cells, other = texture .dat);
+`tools/pack.py dump <pack>` renders each image to work/gfx/<PACKNAME>/<index>.png. An image is usually followed by its
+palette and screen/cells/dat, e.g. EVENTLIST_PACK #15 image, #16 cells, #17 palette. Put pack specs under
+gfx/edits/<PACKNAME>/.
+
+## Known limits of gfxedit
+- 8 bpp OBJ cells that pick one of several 256-colour palettes (OAM palette field, e.g. TomokiMonitor `*_Pltt`) are
+  previewed/colour-matched against palette 0; pick colours accordingly and say so in `_note`.
+- 512-wide screens (two 32x32 NSCR blocks) are read as one 64-wide map.
+- TTF fonts are the Windows fonts of the build machine; a spec using a font missing elsewhere won't build there.
+
 ## Rules
 - Translate faithfully but short; UI labels in Title Case; never abbreviate glossary names/terms unless the space
   truly can't fit them (report those).

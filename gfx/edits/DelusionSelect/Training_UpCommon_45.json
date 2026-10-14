@@ -1,0 +1,9 @@
+{
+  "file": "_Data/DelusionSelect/Training_UpCommon_LZ.NCGR",
+  "cells": "_Data/DelusionSelect/Training_UpCommon.NCER",
+  "cell": 45,
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 72, 16], "color": "transparent"},
+    {"op": "text", "rect": [2, 0, 70, 16], "text": "Advanced Delusion", "font": "GILC____.TTF:13", "color": "#ffffff", "outline": "#1073ff", "align": "left", "valign": "middle", "wrap": false}
+  ]
+}

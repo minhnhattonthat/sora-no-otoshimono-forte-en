@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text04_01_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text04_01.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "Also, when certain conditions\nare met, a powered-up\nReplay Delusion appears:\nthe \"Advanced Delusion.\"\nAdvanced Delusions let you enjoy\neven more niche situations.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

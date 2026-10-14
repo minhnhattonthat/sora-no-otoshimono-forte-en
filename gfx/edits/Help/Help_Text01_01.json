@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text01_01_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text01_01.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "The fuller the gauge,\nthe higher the Intimacy.\nCharacters who are especially\nclose to Tomoki get a crown.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

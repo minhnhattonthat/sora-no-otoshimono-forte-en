@@ -1,0 +1,11 @@
+{
+  "file": "_Data/EventSub/Event_00_53_LZ.NCGR",
+  "cells": "_Data/EventSub/Event_00_53.NCER",
+  "_note": "Tutorial screenshot: Feeling Gauge label + dialogue line.",
+  "ops": [
+    {"op": "erase", "rect": [77, 44, 116, 17], "colors": ["#391841", "#413962", "#4a204a", "#4a4141", "#52525a", "#5a295a", "#5a4a73", "#6a296a", "#733173", "#735a73", "#7b6a73", "#837b83", "#8b3994", "#948394", "#9c52a4", "#9c94a4", "#a441a4", "#a4a4ac", "#ac948b", "#b452bd", "#b49c94", "#b4acb4", "#bd5ac5", "#bd8b8b", "#bda49c", "#bdb4c5", "#c54acd", "#c56acd", "#c59494", "#cdc5d5", "#d594de", "#d5cdde", "#de6ae6", "#e673ee", "#ee5af6", "#eeded5", "#eee6ee", "#f67bf6", "#f67bff", "#f6eef6", "#ff6af6", "#ff8bff", "#ff9cff", "#ffa4ff", "#ffacff", "#ffbdff", "#ffcdff", "#ffdeff", "#fff6f6", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [77, 43, 116, 19], "text": "Feeling Gauge", "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#4a204a", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [16, 167, 224, 14], "colors": ["#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [22, 168, 220, 13], "text": "Tomo-chan...", "font": "f12", "color": "#ffffff", "wrap": false}
+  ]
+}

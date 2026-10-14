@@ -1,0 +1,9 @@
+{
+  "file": "_Data/Help/Help_Text03_01_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_01.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 12], "text": "There are five parameters:", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center"},
+    {"op": "text", "rect": [42, 24, 107, 90], "text": "① Lust Endurance\n② Finger Technique\n③ Pervert Gentleman\n④ Survival Instinct\n⑤ Charm", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "lineh": 16}
+  ]
+}

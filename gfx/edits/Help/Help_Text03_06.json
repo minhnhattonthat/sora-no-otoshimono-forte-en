@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text03_06_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_06.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "⑤ Charm\nTomoki's knack for winning\nover the opposite sex.\nIt eases their guard and slows\nthe rise of the danger level.\nTouching them is also less\nlikely to make them hate him.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

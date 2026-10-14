@@ -1,0 +1,9 @@
+{
+  "file": "_Data/Help/HelpList_TEX_LZ.NCBR",
+  "cells": "_Data/Help/HelpList_TEX.NCER",
+  "cell": 26,
+  "ops": [
+    {"op": "fill", "rect": [0, 3, 112, 13], "color": "#31acff"},
+    {"op": "text", "rect": [1, 4, 110, 12], "text": "Tomoki☆Training", "font": "f12", "color": "#ffffff", "outline": "#0083ff", "align": "center", "valign": "top"}
+  ]
+}

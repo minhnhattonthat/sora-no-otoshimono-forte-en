@@ -1,0 +1,26 @@
+{
+  "file": "_Data/EventSub/Event_00_57_LZ.NCGR",
+  "cells": "_Data/EventSub/Event_00_57.NCER",
+  "_note": "Communication end banner (コミュニケーション終了！). 2 px white outline = 8 offset outline passes + fill.",
+  "ops": [
+    {"op": "erase", "rect": [28, 64, 198, 62], "colors": ["#d552e6", "#de52e6", "#de62e6", "#de6ae6", "#e65aee", "#e65af6", "#e673ee", "#e694e6", "#e69cee", "#e6ace6", "#e6acee", "#e6b4ee", "#e6bde6", "#e6c5e6", "#e6cdde", "#e6cde6", "#e6d5e6", "#e6dee6", "#ee62f6", "#ee62ff", "#ee6aee", "#ee6af6", "#ee73f6", "#ee7bf6", "#ee83f6", "#ee8bf6", "#ee9cf6", "#eebdf6", "#eed5ee", "#eedeee", "#eee6ee", "#f694f6", "#f6a4ff", "#f6acf6", "#f6b4f6", "#f6c5f6", "#f6cdf6", "#f6d5f6", "#f6def6", "#f6e6ee", "#f6e6f6", "#f6e6ff", "#f6eef6", "#fff6f6"], "tolerance": 0},
+    {"op": "text", "rect": [17, 60, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [19, 60, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [18, 59, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [18, 61, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [17, 59, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [19, 61, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [17, 61, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [19, 59, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [18, 60, 220, 42], "text": "Communication", "font": "comicbd.ttf:27", "color": "#ee62ff", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [17, 89, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [19, 89, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [18, 88, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [18, 90, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [17, 88, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [19, 90, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [17, 90, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [19, 88, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#f6eef6", "outline": "#f6eef6", "align": "center", "wrap": false},
+    {"op": "text", "rect": [18, 89, 220, 42], "text": "Complete!", "font": "comicbd.ttf:27", "color": "#ee62ff", "outline": "#f6eef6", "align": "center", "wrap": false}
+  ]
+}

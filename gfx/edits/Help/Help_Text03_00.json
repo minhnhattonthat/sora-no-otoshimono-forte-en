@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text03_00_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_00.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "On the \"Tomoki☆Training\" screen,\nyou can spend the \"Growth Points\"\nyou have earned to raise\nTomoki's parameters.\nThese parameters carry over\ninto Communication Mode.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text04_02_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text04_02.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "What's more,\nin some Advanced Modes,\nthe heroines' outfits\nmay change, or so they say...", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

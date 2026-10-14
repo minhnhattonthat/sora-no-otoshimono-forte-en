@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text03_03_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_03.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "② Finger Technique\nTomoki's technique.\nThe Feeling Gauge rises more\non positive reactions.\nBut careful: it also makes\nHappening Time more\nlikely to occur.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_note": "cell 2 of 4 (pulse frames); cell 0 is empty",
+  "file": "_Data/Demo/Demo_InputOBJ_LZ.NCGR",
+  "cells": "_Data/Demo/Demo_InputOBJ.NCER",
+  "cell": 2,
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 128, 64], "color": "transparent"},
+    {"op": "text", "rect": [-8, 0, 141, 20], "color": "#ffffff", "text": "Press any button", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-6, 0, 141, 20], "color": "#ffffff", "text": "Press any button", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-7, -1, 141, 20], "color": "#ffffff", "text": "Press any button", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-7, 1, 141, 20], "color": "#ffffff", "text": "Press any button", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-7, 0, 141, 20], "color": "#f683ee", "text": "Press any button", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-8, 40, 141, 20], "color": "#ffffff", "text": "touch the screen", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-6, 40, 141, 20], "color": "#ffffff", "text": "touch the screen", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-7, 39, 141, 20], "color": "#ffffff", "text": "touch the screen", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-7, 41, 141, 20], "color": "#ffffff", "text": "touch the screen", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "text", "rect": [-7, 40, 141, 20], "color": "#f683ee", "text": "touch the screen", "font": "arialbd.ttf:14", "outline": "#ffffff", "align": "center", "valign": "middle", "wrap": false}
+  ]
+}

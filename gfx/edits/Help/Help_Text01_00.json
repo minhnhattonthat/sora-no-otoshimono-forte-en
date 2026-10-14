@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text01_00_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text01_00.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "On the \"Intimacy\" screen,\nyou can check how\neach character\nfeels about Tomoki.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

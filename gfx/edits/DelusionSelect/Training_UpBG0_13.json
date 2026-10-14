@@ -1,0 +1,31 @@
+{
+  "file": "_Data/DelusionSelect/Training_UpBG0_13_LZ.NCGR",
+  "screen": "_Data/DelusionSelect/Training_UpBG0_13.NSCR",
+  "ops": [
+    {"op": "copy", "from": [19, 16, 63, 4], "to": [19, 20]},
+    {"op": "copy", "from": [19, 16, 63, 4], "to": [19, 24]},
+    {"op": "copy", "from": [19, 16, 63, 3], "to": [19, 28]},
+    {"op": "erase", "rect": [19, 31, 63, 4], "colors": ["#1062ff", "#206aff", "#2962ff", "#3162ff", "#3173ff", "#415af6", "#4162ff", "#417bff", "#4a5aff", "#4a62ff", "#528bff", "#5a94ff", "#6a9cff", "#7ba4ff", "#8bb4ff", "#9c73f6", "#9cbdff", "#a473ff", "#a4c5ff", "#b4cdff", "#c5d5ff", "#d5e6ff", "#e6eeff", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [19, 20, 66, 14], "text": "Lust Endurance", "font": "GILC____.TTF:12", "color": "#ffffff", "outline": "#319cf6", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [19, 38, 63, 4], "to": [19, 42]},
+    {"op": "copy", "from": [19, 38, 63, 4], "to": [19, 46]},
+    {"op": "copy", "from": [19, 38, 63, 3], "to": [19, 50]},
+    {"op": "erase", "rect": [19, 53, 63, 4], "colors": ["#1062ff", "#206aff", "#2962ff", "#3162ff", "#3173ff", "#4162ff", "#417bff", "#4a62ff", "#5262ff", "#528bff", "#5a6af6", "#5a94ff", "#6a62f6", "#6a9cff", "#7ba4ff", "#8bb4ff", "#9cbdff", "#a4c5ff", "#ac94ff", "#b49cf6", "#b4cdff", "#bda4f6", "#c5d5ff", "#d5e6ff", "#e6eeff", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [19, 42, 66, 14], "text": "Finger Technique", "font": "GILC____.TTF:12", "color": "#ffffff", "outline": "#319cf6", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [19, 60, 63, 4], "to": [19, 64]},
+    {"op": "copy", "from": [19, 60, 63, 4], "to": [19, 68]},
+    {"op": "copy", "from": [19, 60, 63, 3], "to": [19, 72]},
+    {"op": "erase", "rect": [19, 75, 63, 4], "colors": ["#1062ff", "#206aff", "#2962ff", "#3162ff", "#3173ff", "#415af6", "#4162ff", "#417bff", "#5262ff", "#528bff", "#5a6af6", "#5a94ff", "#6a9cff", "#7ba4ff", "#8bb4ff", "#9cbdff", "#a4c5ff", "#b4cdff", "#bda4f6", "#c5a4f6", "#c5d5ff", "#cdb4f6", "#d5e6ff", "#e6eeff", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [19, 64, 66, 14], "text": "Pervert Gentleman", "font": "GILC____.TTF:12", "color": "#ffffff", "outline": "#319cf6", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [19, 82, 63, 4], "to": [19, 86]},
+    {"op": "copy", "from": [19, 82, 63, 4], "to": [19, 90]},
+    {"op": "copy", "from": [19, 82, 63, 3], "to": [19, 94]},
+    {"op": "erase", "rect": [19, 97, 63, 4], "colors": ["#1062ff", "#206aff", "#2962ff", "#3162ff", "#3173ff", "#415af6", "#4162ff", "#417bff", "#4a5aff", "#4a62ff", "#5262ff", "#528bff", "#5a6af6", "#5a94ff", "#6a62f6", "#6a9cff", "#7ba4ff", "#8bb4ff", "#9cbdff", "#b4cdff", "#bd9cf6", "#c5d5ff", "#cdacf6", "#cdb4f6", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [19, 86, 66, 14], "text": "Survival Instinct", "font": "GILC____.TTF:12", "color": "#ffffff", "outline": "#319cf6", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [19, 104, 63, 4], "to": [19, 108]},
+    {"op": "copy", "from": [19, 104, 63, 4], "to": [19, 112]},
+    {"op": "copy", "from": [19, 104, 63, 3], "to": [19, 116]},
+    {"op": "erase", "rect": [19, 119, 63, 4], "colors": ["#1062ff", "#206aff", "#2962ff", "#3162ff", "#3173ff", "#415af6", "#4162ff", "#417bff", "#4a5aff", "#4a62ff", "#5262ff", "#528bff", "#5a6af6", "#5a94ff", "#6a9cff", "#7ba4ff", "#8bb4ff", "#a4c5ff", "#b4cdff", "#bd9cf6", "#c5d5ff", "#d5e6ff", "#e6eeff", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [19, 108, 66, 14], "text": "Charm", "font": "GILC____.TTF:12", "color": "#ffffff", "outline": "#319cf6", "align": "left", "valign": "middle", "wrap": false}
+  ]
+}

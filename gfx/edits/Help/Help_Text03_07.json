@@ -1,0 +1,16 @@
+{
+  "file": "_Data/Help/Help_Text03_07_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_07.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 60], "text": "Leveling up a parameter takes\n\"Growth Points.\" Any EXP already\nstored in that parameter\ncan be used toward it.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 15},
+    {"op": "text", "rect": [3, 66, 189, 11], "text": "e.g. Lust Endurance", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [0, 66, 191, 11], "text": "LV1 → LV2", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false},
+    {"op": "text", "rect": [8, 81, 184, 11], "text": "Growth Points normally needed", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [0, 81, 191, 11], "text": "1000", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false},
+    {"op": "text", "rect": [8, 96, 184, 11], "text": "Stored EXP", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [0, 96, 191, 11], "text": "200", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false},
+    {"op": "text", "rect": [8, 111, 184, 11], "text": "Growth Points spent", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [0, 111, 191, 11], "text": "800", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false}
+  ]
+}

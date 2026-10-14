@@ -1,0 +1,10 @@
+{
+  "file": "_Data/DelusionSelect/Training_DownBG_LZ.NCGR",
+  "screen": "_Data/DelusionSelect/Training_DownBG.NSCR",
+  "ops": [
+    {"op": "fill", "rect": [16, 0, 104, 13], "color": "#f65acd"},
+    {"op": "fill", "rect": [16, 13, 103, 1], "color": "#f65acd"},
+    {"op": "fill", "rect": [16, 14, 100, 1], "color": "#f65acd"},
+    {"op": "text", "rect": [17, 0, 103, 15], "text": "Delusion Communication", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#de20de", "align": "left", "valign": "middle", "wrap": false, "bold": false}
+  ]
+}

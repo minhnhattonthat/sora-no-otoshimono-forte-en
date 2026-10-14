@@ -1,0 +1,9 @@
+{
+  "file": "_Data/EventSub/Event_00_58_LZ.NCGR",
+  "cells": "_Data/EventSub/Event_00_58.NCER",
+  "_note": "Tutorial screenshot: dialogue line (game font, same as the dialogue box).",
+  "ops": [
+    {"op": "erase", "rect": [16, 167, 224, 14], "colors": ["#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [22, 168, 220, 13], "text": "Th-this is kinda embarrassing.", "font": "f12", "color": "#ffffff", "wrap": false}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "file": "_Data/DelusionSelect/Event_00_25_m_LZ.NCGR",
+  "screen": "_Data/DelusionSelect/Event_00_25_m.NSCR",
+  "ops": [
+    {"op": "erase", "rect": [35, 20, 48, 18], "colors": ["#20414a", "#31524a", "#39524a", "#415a52", "#41626a", "#4a624a", "#4a6a73", "#52737b", "#5a6a7b", "#5a7352", "#6a7383", "#6a835a", "#6a8b94", "#73949c", "#7b7b83", "#7b8b62", "#8b9c6a", "#948b8b", "#949cac", "#94a473", "#9c9494", "#aca4a4", "#b4acac", "#bdb4b4", "#bdbdbd", "#cdc5bd", "#cdcd73", "#cdd5d5", "#d5cdc5", "#d5d57b", "#d5d5d5", "#dede83", "#deded5"], "tolerance": 0},
+    {"op": "erase", "rect": [37, 31, 74, 19], "colors": ["#20414a", "#31524a", "#39414a", "#39524a", "#414152", "#415a52", "#41626a", "#4a525a", "#4a624a", "#4a6a73", "#524152", "#52737b", "#5a6a7b", "#5a7352", "#6a7383", "#6a835a", "#6a8b94", "#73949c", "#7b7b83", "#7b8b62", "#8b9c6a", "#948b8b", "#949cac", "#94a473", "#9c9494", "#a4ac73", "#aca4a4", "#acbd7b", "#b4acac", "#bdb4b4", "#bdbdbd", "#bdc57b", "#cdc5bd", "#cdcd73", "#cdd5d5", "#d5cdc5", "#d5d57b", "#d5d5d5", "#dede83", "#deded5"], "tolerance": 0},
+    {"op": "text", "rect": [37, 27, 60, 13], "text": "Teach Me,", "font": "f12", "color": "#deded5", "wrap": false},
+    {"op": "text", "rect": [39, 39, 72, 13], "text": "Ikaros-sensei", "font": "f12", "color": "#d5d57b", "wrap": false},
+    {"op": "erase", "rect": [57, 53, 87, 23], "colors": ["#41395a", "#414152", "#4a395a", "#524152", "#52415a", "#5a4162", "#624162", "#6a416a", "#6a4a62", "#734173", "#83417b", "#834a62", "#944183", "#944a6a", "#9c4a8b", "#a44a8b", "#ac4a94", "#b44a94", "#bd4a9c", "#c55aa4", "#cd6aac", "#d57bbd", "#de8bc5", "#de94c5", "#e6a4d5", "#eeb4de", "#eebdde", "#eec5de", "#f6cde6", "#f6d5ee", "#ffd5e6", "#ffe6f6", "#ffeef6", "#fff6f6", "#fff6ff", "#ffffff"], "tolerance": 0},
+    {"op": "erase", "rect": [57, 74, 148, 23], "colors": ["#101010", "#101820", "#103139", "#182031", "#182931", "#20414a", "#292029", "#393139", "#394152", "#412941", "#41395a", "#414152", "#4a395a", "#52415a", "#5a4162", "#624162", "#6a416a", "#734173", "#7b3139", "#7b4141", "#83417b", "#8b626a", "#944183", "#9c4a8b", "#a44a8b", "#ac4a94", "#ac737b", "#b44a94", "#bd4a9c", "#bd8383", "#c55a62", "#c55aa4", "#cd6aac", "#d57bbd", "#de8bc5", "#de94c5", "#e69c9c", "#e6a4d5", "#eeb4de", "#eebdde", "#eec5de", "#f6cde6", "#f6d5ee", "#f6deff", "#f6e6ff", "#f6f6ff", "#f6ffff", "#ffbdbd", "#ffc5c5", "#ffd5e6", "#ffe6f6", "#ffeef6", "#fff6f6", "#fff6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [57, 53, 146, 22], "text": "Please turn", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [59, 53, 146, 22], "text": "Please turn", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [58, 52, 146, 22], "text": "Please turn", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [58, 54, 146, 22], "text": "Please turn", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [58, 53, 146, 22], "text": "Please turn", "font": "ARLRDBD.TTF:16", "color": "#ffffff", "outline": "#bd4a9c", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [57, 74, 146, 24], "text": "your DS sideways", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [59, 74, 146, 24], "text": "your DS sideways", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [58, 73, 146, 24], "text": "your DS sideways", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [58, 75, 146, 24], "text": "your DS sideways", "font": "ARLRDBD.TTF:16", "color": "#bd4a9c", "outline": "#83417b", "wrap": false, "valign": "middle"},
+    {"op": "text", "rect": [58, 74, 146, 24], "text": "your DS sideways", "font": "ARLRDBD.TTF:16", "color": "#ffffff", "outline": "#bd4a9c", "wrap": false, "valign": "middle"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text04_04_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text04_04.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "Replay and Advanced Delusions\ngive no Growth Points when\ncleared, but failing them won't\ncause a Game Over either.\nTrain yourself and master\nevery delusion!", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

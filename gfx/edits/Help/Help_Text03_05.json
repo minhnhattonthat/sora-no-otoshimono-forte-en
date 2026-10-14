@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text03_05_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_05.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "④ Survival Instinct\nTomoki's will to live.\nGives you more time to react\nduring Happening Time.\nRaise it along with Lust\nEndurance, and the risk of\na Game Over drops a lot.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

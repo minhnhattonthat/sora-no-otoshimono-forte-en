@@ -1,0 +1,10 @@
+{
+  "file": "_Data/Help/HelpList_TEX_LZ.NCBR",
+  "cells": "_Data/Help/HelpList_TEX.NCER",
+  "cell": 0,
+  "_note": "Back button (モドル -> Back).",
+  "ops": [
+    {"op": "erase", "rect": [5, 9, 26, 11], "colors": ["#ffffff", "#296aee", "#2962e6", "#296ae6", "#3173e6"], "tolerance": 24},
+    {"op": "text", "rect": [3, 8, 30, 13], "text": "Back", "font": "f12", "color": "#ffffff", "outline": "#296aee", "align": "center", "valign": "middle"}
+  ]
+}

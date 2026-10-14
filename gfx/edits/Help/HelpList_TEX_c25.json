@@ -1,0 +1,10 @@
+{
+  "file": "_Data/Help/HelpList_TEX_LZ.NCBR",
+  "cells": "_Data/Help/HelpList_TEX.NCER",
+  "cell": 25,
+  "_note": "Selected variant: wings at x<16 and x>=W-16 kept.",
+  "ops": [
+    {"op": "fill", "rect": [16, 0, 64, 16], "color": "#31acff"},
+    {"op": "text", "rect": [17, 3, 62, 12], "text": "Title List", "font": "f12", "color": "#ffffff", "outline": "#ff73ff", "align": "center", "valign": "top"}
+  ]
+}

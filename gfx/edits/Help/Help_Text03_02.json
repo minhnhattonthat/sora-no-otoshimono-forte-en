@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text03_02_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_02.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "① Lust Endurance\nThe strength of Tomoki's lust.\nLets him endure longer play\nin Communication Mode.\nThe higher you raise it,\nthe more composed his\nCommunication will be.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

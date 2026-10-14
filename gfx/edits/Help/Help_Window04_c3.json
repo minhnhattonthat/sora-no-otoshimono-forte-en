@@ -1,0 +1,13 @@
+{
+  "file": "_Data/Help/Help_Window04_LZ.NCBR",
+  "cells": "_Data/Help/Help_Window04.NCER",
+  "cell": 3,
+  "_note": "Pink (selected) No button. Pill background rebuilt from a clean strip.",
+  "ops": [
+    {"op": "copy", "from": [12, 3, 12, 21], "to": [24, 3]},
+    {"op": "copy", "from": [12, 3, 12, 21], "to": [36, 3]},
+    {"op": "copy", "from": [12, 3, 12, 21], "to": [48, 3]},
+    {"op": "copy", "from": [12, 3, 12, 21], "to": [60, 3]},
+    {"op": "text", "rect": [10, 5, 68, 18], "text": "No", "font": "f12", "color": "#ffffff", "outline": "#ff1800", "align": "center", "valign": "middle", "bold": true}
+  ]
+}

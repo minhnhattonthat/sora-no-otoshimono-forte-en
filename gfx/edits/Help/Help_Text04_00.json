@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text04_00_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text04_00.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "On the \"Delusion Communication\"\nscreen, you can replay\nsituations Tomoki went through\nin the story.\nThis is called a\n\"Replay Delusion.\"", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

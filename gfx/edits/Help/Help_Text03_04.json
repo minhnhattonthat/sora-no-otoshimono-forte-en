@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text03_04_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text03_04.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "③ Pervert Gentleman\nHow gentlemanly Tomoki can act.\nThe Feeling Gauge drops less\non negative reactions.\nIt also makes Happening Time\nless likely, so you land in\nfewer tight spots.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

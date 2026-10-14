@@ -1,0 +1,9 @@
+{
+  "file": "_Data/EventSub/Event_00_59_LZ.NCGR",
+  "cells": "_Data/EventSub/Event_00_59.NCER",
+  "_note": "Tutorial screenshot: Danger Signal label.",
+  "ops": [
+    {"op": "erase", "rect": [64, 63, 101, 15], "colors": ["#391841", "#4a2052", "#4a3131", "#4a4141", "#525252", "#5a295a", "#5a3939", "#624a41", "#6a316a", "#6a6262", "#733973", "#735a5a", "#836a7b", "#8b418b", "#8b7b7b", "#945294", "#94839c", "#9c94a4", "#a441a4", "#a452ac", "#ac8bac", "#ac9ca4", "#b462bd", "#bda4bd", "#bdb4c5", "#c56acd", "#c5bdcd", "#cd52d5", "#cdc5cd", "#cdc5d5", "#d5d5de", "#de5ae6", "#de73e6", "#dea4e6", "#e6d5e6", "#e6e6e6", "#ee7bf6", "#eee6ee", "#f66aff", "#f6f6f6", "#f6ffff", "#ff8bff", "#ff94ff", "#ffa4ff", "#ffacff", "#ffb4ff", "#ffbdff", "#ffcdff", "#ffd5ff", "#ffdeff", "#ffeeff", "#fff6f6", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [64, 62, 101, 17], "text": "Danger Signal", "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#4a204a", "align": "center", "valign": "middle", "wrap": false}
+  ]
+}

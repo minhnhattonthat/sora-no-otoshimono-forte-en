@@ -391,35 +391,51 @@ def specs():
             yield p, json.load(f)
 
 
+class Files(dict):
+    """Lazy NitroFS reader; "<pack path>#<index>" addresses an entry inside a *_PACK.bin (tools/pack.py)."""
+
+    def __init__(self, read):
+        super().__init__()
+        self.read = read
+
+    def __missing__(self, k):
+        if '#' in k:
+            import pack
+            path, i = k.rsplit('#', 1)
+            v = pack.unpack(self[path])[int(i)]
+        else:
+            v = self.read(k)
+        self[k] = v
+        return v
+
+
 def rom_files():
     import romfs
     rom, ids = romfs.load()
+    return Files(lambda k: bytes(rom.files[ids[k]]))
 
-    class Files(dict):
-        def __missing__(self, k):
-            v = bytes(rom.files[ids[k]])
-            self[k] = v
-            return v
-    return Files()
+
+def put(rom, ids, key, data):
+    if '#' in key:
+        import pack
+        path, i = key.rsplit('#', 1)
+        ents = pack.unpack(rom.read(ids[path]))
+        ents[int(i)] = data
+        rom.replace(ids[path], pack.pack(ents))
+    else:
+        rom.replace(ids[key], data)
 
 
 def apply(rom, ids):
-    files = {}
-
-    class Files(dict):
-        def __missing__(self, k):
-            v = rom.read(ids[k])
-            self[k] = v
-            return v
     for p, spec in specs():
-        files = Files()  # fresh per spec: several specs may edit the same file (different cells) in turn
+        files = Files(lambda k: rom.read(ids[k]))  # fresh per spec: specs may edit the same file in turn
         cv = run(spec, files)
         char, nscr = cv.encode()
-        rom.replace(ids[spec['file']], char)
+        put(rom, ids, spec['file'], char)
         if nscr:
-            rom.replace(ids[cv.screen], nscr)
+            put(rom, ids, cv.screen, nscr)
         for path, data in cv.extra.items():
-            rom.replace(ids[path], data)
+            put(rom, ids, path, data)
 
 
 def main():

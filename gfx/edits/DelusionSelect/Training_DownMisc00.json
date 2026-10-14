@@ -1,0 +1,33 @@
+{
+  "file": "_Data/DelusionSelect/Training_DownMisc00_LZ.NCBR",
+  "ops": [
+    {"op": "copy", "from": [152, 9, 88, 2], "to": [152, 11]},
+    {"op": "copy", "from": [152, 9, 88, 4], "to": [152, 13]},
+    {"op": "copy", "from": [152, 9, 88, 7], "to": [152, 17]},
+    {"op": "text", "rect": [152, 9, 88, 15], "text": "Ikaros", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [152, 33, 88, 2], "to": [152, 35]},
+    {"op": "copy", "from": [152, 33, 88, 4], "to": [152, 37]},
+    {"op": "copy", "from": [152, 33, 88, 7], "to": [152, 41]},
+    {"op": "text", "rect": [152, 33, 88, 15], "text": "Nymph", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [152, 57, 88, 2], "to": [152, 59]},
+    {"op": "copy", "from": [152, 57, 88, 4], "to": [152, 61]},
+    {"op": "copy", "from": [152, 57, 88, 7], "to": [152, 65]},
+    {"op": "text", "rect": [152, 57, 88, 15], "text": "Astraea", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [152, 81, 88, 2], "to": [152, 83]},
+    {"op": "copy", "from": [152, 81, 88, 4], "to": [152, 85]},
+    {"op": "copy", "from": [152, 81, 88, 7], "to": [152, 89]},
+    {"op": "text", "rect": [152, 81, 88, 15], "text": "Sohara Mitsuki", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [152, 105, 88, 2], "to": [152, 107]},
+    {"op": "copy", "from": [152, 105, 88, 4], "to": [152, 109]},
+    {"op": "copy", "from": [152, 105, 88, 7], "to": [152, 113]},
+    {"op": "text", "rect": [152, 105, 88, 15], "text": "Mikako Satsukitane", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [152, 129, 88, 2], "to": [152, 131]},
+    {"op": "copy", "from": [152, 129, 88, 4], "to": [152, 133]},
+    {"op": "copy", "from": [152, 129, 88, 7], "to": [152, 137]},
+    {"op": "text", "rect": [152, 129, 88, 15], "text": "Eishiro Sugata", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "copy", "from": [152, 153, 88, 2], "to": [152, 155]},
+    {"op": "copy", "from": [152, 153, 88, 4], "to": [152, 157]},
+    {"op": "copy", "from": [152, 153, 88, 7], "to": [152, 161]},
+    {"op": "text", "rect": [152, 153, 88, 15], "text": "Tomoko", "font": "CabinCondensed-Bold.ttf:11", "color": "#ffffff", "outline": "#4162ff", "align": "center", "valign": "middle", "wrap": false}
+  ]
+}

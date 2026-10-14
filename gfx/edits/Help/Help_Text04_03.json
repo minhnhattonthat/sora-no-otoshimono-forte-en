@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text04_03_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text04_03.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "Whether an Advanced Delusion\nappears depends on your\nReplay Delusion clear rank\nand Tomoki's parameters.\nTry to unlock every\nAdvanced Delusion!", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}

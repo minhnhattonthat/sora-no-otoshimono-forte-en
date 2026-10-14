@@ -1,0 +1,9 @@
+{
+  "file": "_Data/Help/HelpList_TEX_LZ.NCBR",
+  "cells": "_Data/Help/HelpList_TEX.NCER",
+  "cell": 24,
+  "ops": [
+    {"op": "fill", "rect": [0, 3, 64, 13], "color": "#31acff"},
+    {"op": "text", "rect": [1, 4, 62, 12], "text": "Title List", "font": "f12", "color": "#ffffff", "outline": "#0083ff", "align": "center", "valign": "top"}
+  ]
+}

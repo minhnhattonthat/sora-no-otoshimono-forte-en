@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Help/Help_Text02_00_LZ.NCBR",
+  "cells": "_Data/Help/Help_Text02_00.NCER",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 192, 128], "color": "transparent"},
+    {"op": "text", "rect": [0, 1, 192, 127], "text": "On the \"Title List\" screen,\nyou can view and set the\nvarious Titles you have earned.\n\nTitles are also earned through\nyour actions and Tomoki's growth.", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "center", "lineh": 16}
+  ]
+}
