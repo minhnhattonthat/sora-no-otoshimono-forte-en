@@ -1,0 +1,10 @@
+{
+  "file": "_Data/EventMain/Event_00_310_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_31.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Time Gauge label. Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [71, 38, 83, 19], "colors": ["#391841", "#4a204a", "#5a4162", "#622962", "#6a4173", "#6a5a73", "#733973", "#7b6a62", "#7b737b", "#83318b", "#837b83", "#83838b", "#8b418b", "#948b94", "#9c39a4", "#9c949c", "#9c9ca4", "#a44aac", "#a4a4ac", "#ac5ab4", "#acacb4", "#b47ba4", "#b4a4a4", "#bd83bd", "#bdb4c5", "#c54acd", "#c562cd", "#cdc5cd", "#d594cd", "#d5cdde", "#de52e6", "#de6ae6", "#ded5de", "#e673ee", "#e6b4e6", "#e6dee6", "#ee5af6", "#ee7bf6", "#eee6ee", "#f66aff", "#f67bff", "#f69cff", "#f6eef6", "#ff8bff", "#ffa4ff", "#ffacff", "#ffb4ff", "#ffbdff", "#ffcdff", "#ffd5f6", "#ffdeff", "#ffeeff", "#fff6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [71, 35, 83, 25], "text": "Time Gauge", "wrap": false, "font": "arialbd.ttf:13", "color": "#ffffff", "shadow": "#391841", "align": "center", "valign": "middle"}
+  ]
+}

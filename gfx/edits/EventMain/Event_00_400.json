@@ -1,0 +1,30 @@
+{
+  "file": "_Data/EventMain/Event_00_400_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_40.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Game Over menu (Retry / Return to Title / Skip). Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [106, 53, 60, 20], "colors": ["#0018ac", "#1029c5", "#1831de", "#2031f6", "#394ade", "#5262e6", "#5a6af6", "#949cee", "#acacd5", "#c5c5f6", "#d5d5ee", "#e6e6ff", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "erase", "rect": [82, 92, 106, 21], "colors": ["#0018ac", "#1029c5", "#1831de", "#2031f6", "#394ade", "#5262e6", "#5a6af6", "#949cee", "#acacd5", "#c5c5f6", "#d5d5ee", "#e6e6ff", "#f6f6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [85, 49, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [85, 50, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [85, 51, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [86, 49, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [86, 50, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [86, 51, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [87, 49, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [87, 50, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [87, 51, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [86, 50, 98, 26], "text": "Retry", "wrap": false, "font": "arialbd.ttf:15", "color": "#2031f6", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [75, 88, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [75, 89, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [75, 90, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [76, 88, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [76, 89, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [76, 90, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [77, 88, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [77, 89, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [77, 90, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [76, 89, 118, 26], "text": "Return to Title", "wrap": false, "font": "arialbd.ttf:15", "color": "#2031f6", "align": "center", "valign": "middle"}
+  ]
+}

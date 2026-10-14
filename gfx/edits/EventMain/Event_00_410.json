@@ -1,0 +1,12 @@
+{
+  "file": "_Data/EventMain/Event_00_410_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_41.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Touch / Slide labels. Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [50, 27, 49, 18], "colors": ["#311818", "#392020", "#412929", "#522020", "#523131", "#5a3939", "#6a2929", "#6a4a4a", "#733931", "#735a4a", "#7b395a", "#7b5252", "#833120", "#835a5a", "#836a62", "#837b7b", "#8b415a", "#8b736a", "#943141", "#94837b", "#9c8b8b", "#a4394a", "#a44a5a", "#a4837b", "#a4948b", "#b45283", "#b46a83", "#b4a49c", "#bd394a", "#bd5a62", "#bd8b8b", "#bd948b", "#bdacb4", "#bdb4bd", "#c59c94", "#c5bdcd", "#cd416a", "#d55262", "#d5c5bd", "#d5c5d5", "#de5a73", "#de6a7b", "#de839c", "#deacbd", "#decdde", "#e6b4b4", "#e6cdc5", "#eed5cd", "#eeded5", "#f6738b", "#f6eef6", "#ff526a", "#ff627b", "#ff7b94", "#ff8b9c", "#ff94ac", "#ff9cac", "#ffaccd", "#ffbdc5", "#ffc5d5", "#ffcde6", "#ffdede", "#ffe6de", "#ffeee6", "#fff6f6", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [50, 24, 49, 24], "text": "Touch", "wrap": false, "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#311818", "align": "center", "valign": "middle"},
+    {"op": "erase", "rect": [172, 109, 52, 19], "colors": ["#182039", "#203141", "#31296a", "#313983", "#314152", "#41399c", "#4a4a62", "#524a9c", "#5252cd", "#5a5a5a", "#6a52bd", "#6a5ac5", "#736a7b", "#736acd", "#737b7b", "#7b6aff", "#7b73d5", "#838394", "#8b7bff", "#9483ff", "#949ca4", "#94a4c5", "#9c8bff", "#a49cff", "#a4a4b4", "#aca4ff", "#bdacb4", "#bdacff", "#bdb4bd", "#c5bdcd", "#c5bdff", "#cdcdff", "#d5c5d5", "#decdde", "#ded5ff", "#eed5ee", "#f6eef6", "#f6ffff", "#fff6f6", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [172, 106, 52, 25], "text": "Slide", "wrap": false, "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#182039", "align": "center", "valign": "middle", "allow_overflow": true}
+  ]
+}

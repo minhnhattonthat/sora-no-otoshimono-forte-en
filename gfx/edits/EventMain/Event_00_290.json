@@ -1,0 +1,10 @@
+{
+  "file": "_Data/EventMain/Event_00_290_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_29.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Finish Mark label. Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [85, 33, 116, 19], "colors": ["#391841", "#4a204a", "#4a3131", "#5a295a", "#5a415a", "#6a3173", "#6a416a", "#734183", "#735a73", "#736a6a", "#7b737b", "#7b7b7b", "#83318b", "#8b418b", "#8b8394", "#94528b", "#94736a", "#948b94", "#9c39a4", "#a452a4", "#a4949c", "#aca4b4", "#b452bd", "#bd948b", "#bdb4c5", "#c552cd", "#c562cd", "#c5bdcd", "#cdc5d5", "#d552de", "#d594de", "#d5cdde", "#de6ae6", "#dea4e6", "#ded5e6", "#e673ee", "#e6e6e6", "#ee5af6", "#f673ff", "#f67bff", "#f6f6f6", "#ff8bff", "#ff94ff", "#ffa4ff", "#ffacff", "#ffbdff", "#ffcdff", "#ffdeff", "#ffeeff", "#fff6f6", "#fff6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [85, 30, 116, 25], "text": "Finish Mark", "wrap": false, "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#391841", "align": "center", "valign": "middle"}
+  ]
+}

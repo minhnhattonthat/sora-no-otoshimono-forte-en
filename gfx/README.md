@@ -25,6 +25,9 @@ dialogue; title text in Title Case).
 ```
 (The `//` notes above are explanations only: real spec files are plain JSON without comments.)
 Without "screen"/"cells" the file must be a linear bitmap (most `*_TEX*_LZ.NCBR`).
+`"rotate": 90` (linear bitmaps only): the file stores the on-screen image turned 90° counter-clockwise (EventMain,
+NormalMain: 128x256 halves `*0_LZ` / `*1_LZ` = screen rows 0-127 / 128-255); orig/preview and all op coordinates are
+then in the upright, as-seen orientation. These images sit 8 px right/down of the screen they copy.
 Optional `"preview_zoom": 2`. A `"_note"` key is ignored and can hold your remarks.
 
 Ops (coordinates are pixels in the orig.png; rect = [x, y, w, h]):

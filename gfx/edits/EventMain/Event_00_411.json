@@ -1,0 +1,9 @@
+{
+  "file": "_Data/EventMain/Event_00_411_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_41.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Touch / Slide labels. Half 1 of the screen (rows 128-255). Generated.",
+  "ops": [
+    {"op": "text", "rect": [172, -22, 52, 25], "text": "Slide", "wrap": false, "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#182039", "align": "center", "valign": "middle", "allow_overflow": true}
+  ]
+}

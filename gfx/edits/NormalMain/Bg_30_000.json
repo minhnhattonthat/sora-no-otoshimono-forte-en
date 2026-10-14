@@ -1,0 +1,21 @@
+{
+  "file": "_Data/NormalMain/Bg_30_000_LZ.NCBR",
+  "palette": "_Data/NormalMain/Bg_30_00.NCLR",
+  "rotate": 90,
+  "_note": "Delusion-scene backdrop (black) with the pink 脳内☆補完中 banner; stored turned 90 deg, edited as seen. The original ☆ is moved, not redrawn.",
+  "ops": [
+    {"op": "copy", "from": [122, 8, 15, 17], "to": [143, 8]},
+    {"op": "copy", "from": [20, 40, 59, 18], "to": [84, 8]},
+    {"op": "copy", "from": [20, 40, 33, 18], "to": [158, 8]},
+    {"op": "text", "rect": [67, 5, 74, 24], "text": "Delusion", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [69, 5, 74, 24], "text": "Delusion", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [68, 4, 74, 24], "text": "Delusion", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [68, 6, 74, 24], "text": "Delusion", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [68, 5, 74, 24], "text": "Delusion", "font": "arialbd.ttf:16", "color": "#ffcdff", "outline": "#f639ff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [160, 5, 48, 24], "text": "Mode", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [162, 5, 48, 24], "text": "Mode", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [161, 4, 48, 24], "text": "Mode", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [161, 6, 48, 24], "text": "Mode", "font": "arialbd.ttf:16", "color": "#521052", "outline": "#521052", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [161, 5, 48, 24], "text": "Mode", "font": "arialbd.ttf:16", "color": "#ffcdff", "outline": "#f639ff", "align": "center", "valign": "middle"}
+  ]
+}

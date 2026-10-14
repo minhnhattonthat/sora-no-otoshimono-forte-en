@@ -1,0 +1,10 @@
+{
+  "file": "_Data/EventMain/Event_00_360_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_36.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Happening Time limit gauge label (ハプニング対処タイム). Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [88, 58, 131, 19], "colors": ["#411841", "#5a295a", "#623952", "#624a83", "#6a2973", "#733173", "#735a73", "#7b5a9c", "#83398b", "#836a94", "#8b418b", "#9c39a4", "#9c839c", "#a452a4", "#a494ac", "#ac5ab4", "#b4a4b4", "#bd4ac5", "#bd7bbd", "#c552cd", "#c562cd", "#cd83ff", "#cdc5cd", "#cdcdd5", "#d552de", "#de5ae6", "#de6ae6", "#dea4cd", "#ded5de", "#e673ee", "#e6ace6", "#ee5af6", "#ee7bf6", "#eedef6", "#f66aff", "#f67bff", "#f68bff", "#f6f6f6", "#f6ffff", "#ff9cff", "#ffa4ff", "#ffacff", "#ffb4ff", "#ffbdff", "#ffcdff", "#ffd5f6", "#ffd5ff", "#ffdeff", "#ffeeff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [88, 55, 131, 25], "text": "Happening Time Limit", "wrap": false, "font": "arialbd.ttf:12", "color": "#ffffff", "shadow": "#411841", "align": "center", "valign": "middle"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "file": "_Data/EventMain/Event_00_401_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_40.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Game Over menu (Retry / Return to Title / Skip). Half 1 of the screen (rows 128-255). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [88, 5, 95, 20], "colors": ["#6aa4f6", "#83cdff", "#c5e6ff", "#f6f6ff", "#ff39f6", "#ff6aee", "#ff94f6", "#ffbdff", "#ffe6ff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [87, 1, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [87, 2, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [87, 3, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [88, 1, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [88, 2, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [88, 3, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [89, 1, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [89, 2, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [89, 3, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [88, 2, 95, 26], "text": "Skip", "wrap": false, "font": "arialbd.ttf:15", "color": "#ff39f6", "align": "center", "valign": "middle"}
+  ]
+}

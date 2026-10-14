@@ -190,6 +190,31 @@ All 18 are garbled (tiles out of order) and need a proper render.
 | EventSub | Event_00_51 - Event_00_65 (15 files) | tutorial screenshots of Communication Mode | UI labels (fragments: フィーリング, コミュニケーション) + dialogue-box lines (fragments: トモちゃん……, 目が……怖いよ……, ふざけて……) | (unreadable until rendered) | garbled; JP clearly visible in 53, 55, 58, 59, 60, 63, 64, 65; the rest probably have it too |
 
 No text (as far as visible): Event_00_00, Event_03_05 (starfield, garbled).
+Rendered properly (OBJ cells): text only in 50, 53, 55, 57-60, 63, 64 (all have specs); 51, 52, 54, 56, 61, 62 have none,
+65 is "GAME OVER" (already English).
+
+## EventMain (Communication tutorial screenshots, bottom screen)
+
+Each Event_00_NN is two 128x256 NCBR halves (`NN0` = screen rows 0-127, `NN1` = 128-255) stored turned 90 deg: specs
+use `"rotate": 90`. Most are event CGs (no text). Text in:
+
+| file | Japanese | English |
+|---|---|---|
+| Event_00_25 | おしえてイカロス先生 / DS本体を持ち替えて下さい (chalkboard; same art as DelusionSelect/Event_00_25_m) | Teach Me, Ikaros-sensei / Please turn your DS sideways |
+| Event_00_29 | フィニッシュマーク | Finish Mark |
+| Event_00_31 | タイムゲージ | Time Gauge |
+| Event_00_32 | Results screen (same as Result_DownBG_Normal) | Results / Growth Points Earned / Time / Happenings Failed / Total Growth Points Earned |
+| Event_00_35 | ハプニングタイム banner | Happening Time |
+| Event_00_36 | ハプニング対処タイム | Happening Time Limit |
+| Event_00_37 | タッチマーカー / スクラッチマーカー | Touch Marker / Scratch Marker |
+| Event_00_38 / 39 | 成功！ / 失敗！ | Success! / Failure! |
+| Event_00_40 | リトライ / タイトルに戻る / スキップする | Retry / Return to Title / Skip |
+| Event_00_41 | タッチ / スライド | Touch / Slide |
+
+## NormalMain
+
+Bg_* are location backdrops (two rotated halves, like EventMain). Only Bg_30_000 has text: the pink 脳内☆補完中 banner
+over black in delusion scenes -> "Delusion☆Mode".
 
 ## Friendly
 

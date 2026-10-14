@@ -1,0 +1,30 @@
+{
+  "file": "_Data/EventMain/Event_00_390_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_39.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Failure! banner. Wings moved 6 px apart for room. Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "copy", "from": [64, 88, 38, 33], "to": [58, 88]},
+    {"op": "copy", "from": [161, 88, 42, 33], "to": [167, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [96, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [104, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [112, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [120, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [128, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [136, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [144, 88]},
+    {"op": "copy", "from": [20, 88, 8, 33], "to": [152, 88]},
+    {"op": "copy", "from": [20, 88, 7, 33], "to": [160, 88]},
+    {"op": "text", "rect": [95, 87, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [95, 88, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [95, 89, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [96, 87, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [96, 88, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [96, 89, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [97, 87, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [97, 88, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [97, 89, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#ffffff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [96, 88, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#0820e6", "outline": "#0820e6", "align": "center", "valign": "middle"},
+    {"op": "text", "rect": [96, 88, 71, 33], "text": "Failure!", "wrap": false, "font": "arialnb.ttf:18", "color": "#00bde6", "align": "center", "valign": "middle"}
+  ]
+}

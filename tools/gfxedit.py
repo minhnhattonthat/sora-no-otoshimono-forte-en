@@ -63,6 +63,9 @@ class Canvas:
             self.w, self.h = c.w, c.h
             self.idx = [c.idx[y * c.w:(y + 1) * c.w] for y in range(c.h)]
             self.bank = None
+            if spec.get('rotate') == 90:  # stored = on-screen image turned 90 deg CCW: edit it the way it is seen
+                self.idx = [[self.idx[self.h - 1 - x][y] for x in range(self.h)] for y in range(self.w)]
+                self.w, self.h = self.h, self.w
         self.before = [row[:] for row in self.idx]
 
     SIZES = {(0, 0): (8, 8), (0, 1): (16, 16), (0, 2): (32, 32), (0, 3): (64, 64),
@@ -154,7 +157,10 @@ class Canvas:
                 flat[k] = self.idx[y][x]
             return c.encode(flat, self.orig), None
         if not self.screen:
-            flat = [v for row in self.idx for v in row]
+            rows = self.idx
+            if self.spec.get('rotate') == 90:  # back to stored orientation
+                rows = [[self.idx[x][self.w - 1 - y] for x in range(self.h)] for y in range(self.w)]
+            flat = [v for row in rows for v in row]
             return c.encode(flat + c.idx[len(flat):], self.orig), None
         tiles = list(c.idx)
         cols = self.w // 8

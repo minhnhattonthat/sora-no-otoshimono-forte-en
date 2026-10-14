@@ -1,26 +1,26 @@
 {
   "file": "_Data/Help/Help_Text00_01_LZ.NCBR",
   "cells": "_Data/Help/Help_Text00_01.NCER",
-  "_note": "Controls while in BACKLOG / at choices. \"BACKLOG OFF\" / \"BACKLOG ON･OFF\" are original English pixels, kept.",
+  "_note": "Controls while in BACKLOG / at choices. \"BACKLOG OFF\" / \"BACKLOG ON･OFF\" are original English pixels, kept. arialbd 11 instead of f12 for legibility (as Help_Text00_00).",
   "ops": [
     {"op": "fill", "rect": [0, 0, 192, 16], "color": "transparent"},
-    {"op": "text", "rect": [1, 1, 191, 11], "text": "[While Viewing BACKLOG]", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [1, 1, 191, 14], "text": "[While Viewing BACKLOG]", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
     {"op": "fill", "rect": [0, 14, 192, 16], "color": "transparent"},
-    {"op": "text", "rect": [1, 18, 99, 11], "text": "+Control Pad", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
-    {"op": "text", "rect": [0, 18, 191, 11], "text": "Scroll LOG", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false},
+    {"op": "text", "rect": [1, 18, 99, 14], "text": "+Control Pad", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [-1, 18, 191, 14], "text": "Scroll LOG", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false, "allow_overflow": true},
     {"op": "fill", "rect": [0, 32, 101, 13], "color": "transparent"},
-    {"op": "text", "rect": [1, 33, 100, 11], "text": "B Button", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [1, 33, 100, 14], "text": "B Button", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
     {"op": "fill", "rect": [0, 47, 101, 13], "color": "transparent"},
-    {"op": "text", "rect": [1, 48, 100, 11], "text": "START Button", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [1, 48, 100, 14], "text": "START Button", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
     {"op": "fill", "rect": [0, 62, 192, 20], "color": "transparent"},
-    {"op": "text", "rect": [1, 67, 191, 11], "text": "[When Choices Appear]", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [1, 67, 191, 14], "text": "[When Choices Appear]", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
     {"op": "fill", "rect": [0, 80, 192, 16], "color": "transparent"},
-    {"op": "text", "rect": [1, 84, 99, 11], "text": "+Control Pad", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
-    {"op": "text", "rect": [0, 84, 191, 11], "text": "Choose Option", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false},
+    {"op": "text", "rect": [1, 84, 99, 14], "text": "+Control Pad", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [-1, 84, 191, 14], "text": "Choose Option", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false, "allow_overflow": true},
     {"op": "fill", "rect": [0, 98, 192, 13], "color": "transparent"},
-    {"op": "text", "rect": [1, 99, 99, 11], "text": "A Button", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
-    {"op": "text", "rect": [0, 99, 191, 11], "text": "Confirm Option", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false},
+    {"op": "text", "rect": [1, 99, 99, 14], "text": "A Button", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false},
+    {"op": "text", "rect": [-1, 99, 191, 14], "text": "Confirm Option", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "align": "right", "wrap": false, "allow_overflow": true},
     {"op": "fill", "rect": [0, 113, 78, 13], "color": "transparent"},
-    {"op": "text", "rect": [1, 114, 77, 11], "text": "START Button", "font": "f12", "color": "#ffffff", "outline": "#ac7b41", "wrap": false}
+    {"op": "text", "rect": [1, 114, 77, 14], "text": "START Button", "font": "arialbd.ttf:11", "color": "#ffffff", "outline": "#ac7b41", "wrap": false}
   ]
 }

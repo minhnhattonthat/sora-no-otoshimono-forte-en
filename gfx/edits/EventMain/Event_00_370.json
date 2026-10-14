@@ -1,0 +1,12 @@
+{
+  "file": "_Data/EventMain/Event_00_370_LZ.NCBR",
+  "palette": "_Data/EventMain/Event_00_37.NCLR",
+  "rotate": 90,
+  "_note": "Communication tutorial screenshot: Touch Marker / Scratch Marker labels. Half 0 of the screen (rows 0-127). Generated.",
+  "ops": [
+    {"op": "erase", "rect": [77, 15, 91, 19], "colors": ["#411820", "#522029", "#525252", "#6a2931", "#6a6a6a", "#733141", "#735a5a", "#833141", "#837383", "#94394a", "#9c838b", "#a4394a", "#a44a5a", "#ac949c", "#aca4ac", "#bd415a", "#bd5262", "#bdb4bd", "#cd4a5a", "#cdc5cd", "#cdcdd5", "#d56273", "#d5cdde", "#de526a", "#dea4c5", "#e68b9c", "#e6e6e6", "#ee6a83", "#f65273", "#f6bda4", "#f6eef6", "#f6ffff", "#ff627b", "#ff7b94", "#ff839c", "#ff8ba4", "#ff94a4", "#ff9cac", "#ffa4bd", "#ffacbd", "#ffb4c5", "#ffbdcd", "#ffcdd5", "#ffd5de", "#ffdee6", "#ffeeee", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [77, 12, 91, 25], "text": "Touch Marker", "wrap": false, "font": "arialbd.ttf:13", "color": "#ffffff", "shadow": "#411820", "align": "center", "valign": "middle"},
+    {"op": "erase", "rect": [108, 110, 117, 18], "colors": ["#181041", "#20184a", "#292973", "#312052", "#312062", "#31317b", "#313983", "#392973", "#41317b", "#4131a4", "#413983", "#4a4183", "#4a41ac", "#4a4a8b", "#5241cd", "#524a9c", "#524acd", "#525252", "#5252b4", "#525ad5", "#5a4a83", "#5a5a73", "#5a5aac", "#62528b", "#6252f6", "#625acd", "#626abd", "#6a629c", "#6a6a6a", "#6a73c5", "#7362de", "#7362ff", "#7b6ade", "#7b6af6", "#7b83c5", "#837383", "#8b7bff", "#8b839c", "#8b83ff", "#9483ff", "#9c8bff", "#9c94bd", "#a49cff", "#aca4ac", "#aca4ff", "#b4acff", "#bdb4bd", "#bdb4ff", "#bdc5ee", "#c5bdff", "#c5c5ee", "#cdc5cd", "#cdcdd5", "#d5cdde", "#d5cdff", "#ded5ff", "#dedeff", "#e6e6e6", "#eee6ff", "#f6eef6", "#f6ffff", "#ffffff"], "tolerance": 0},
+    {"op": "text", "rect": [108, 107, 117, 25], "text": "Scratch Marker", "wrap": false, "font": "arialbd.ttf:14", "color": "#ffffff", "shadow": "#181041", "align": "center", "valign": "middle", "allow_overflow": true}
+  ]
+}
