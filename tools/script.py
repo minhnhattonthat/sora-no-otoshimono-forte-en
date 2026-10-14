@@ -86,7 +86,8 @@ def parse_pack(data):
 def build_pack(blocks, tail=b''):
     out = struct.pack('<H', len(blocks))
     for head, cmds in blocks:
-        out += head + struct.pack('<H', len(cmds)) + b''.join(c.encode() for c in cmds)
+        body = head[2:] + struct.pack('<H', len(cmds)) + b''.join(c.encode() for c in cmds)
+        out += struct.pack('<H', len(body) - 2) + body  # block length field = block bytes - 4
     return out + tail
 
 

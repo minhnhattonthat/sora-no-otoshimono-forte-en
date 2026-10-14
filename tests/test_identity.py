@@ -44,3 +44,22 @@ def test_scripts_roundtrip():
             assert script.build(sid, unk, cmds) == d, p
             n += 1
     assert n == 137
+
+
+def test_trial_packs_block_length():
+    """The first u16 of a pack block is its byte length - 4; the game stalls in Trial scenes if it is stale."""
+    rom, ids = romfs.load()
+    n = 0
+    for p, fid in ids.items():
+        if p.startswith('_Data/Script/Trial/'):
+            d = bytes(rom.files[fid])
+            blocks, tail = script.parse_pack(d)
+            assert script.build_pack(blocks, tail) == d, p
+            out = script.build_pack([(h, cmds[:-1]) for h, cmds in blocks], tail)  # shrink every block
+            pos = 2
+            for h, cmds in blocks:
+                size = 11 + sum(len(c.encode()) for c in cmds[:-1])
+                assert struct.unpack_from('<H', out, pos)[0] == size - 4, p
+                pos += size
+            n += 1
+    assert n == 44

@@ -75,6 +75,11 @@ def font_widths(nftr):
             f[o:o + 3] = bytes([1, ink, ink + 2])
             table[c] = ink + 2
             continue
+        if c in GLYPHS:  # the font's ' and " are slashes that read as accents
+            rows = GLYPHS[c]
+            bits = ''.join(r.replace('#', '1').replace('.', '0').ljust(11, '0') for r in rows).ljust(tsz * 8, '0')
+            f[plgc + 8 + g * tsz:plgc + 8 + (g + 1) * tsz] = int(bits, 2).to_bytes(tsz, 'big')
+            f[o + 1] = max(len(r.rstrip('.')) for r in rows)
         ink = f[o + 1]
         adv = SPACE_ADV if c == 0x20 else ink + 1
         f[o], f[o + 2] = 0, adv
@@ -84,6 +89,9 @@ def font_widths(nftr):
 
 # ASCII byte -> Shift-JIS code of the symbol drawn there: ^ = ☆, ` = ♪, | = heart (the font's Ω glyph)
 SYMBOLS = {0x5E: 0x8199, 0x60: 0x81F4, 0x7C: 0x83B6}  # textfmt.SYMBOLS maps the characters to these bytes
+
+# 11x11 1 bpp cells, top rows only; shaped like the font's comma
+GLYPHS = {0x27: ['##', '##', '.#', '#.'], 0x22: ['##.##', '##.##', '.#..#', '#..#.']}
 
 
 def glyph_index(f, code):
