@@ -1,0 +1,10 @@
+{
+  "_note": "End ('fin') top screen: StaffRoll_Up tinted pink. Same ops with the tinted English logo (logo_en_fin.png).",
+  "file": "_Data/StaffRoll/StaffFin_Up_LZ.NCGR",
+  "screen": "_Data/StaffRoll/StaffFin_Up.NSCR",
+  "ops": [
+    {"op": "erase", "mask": "MainTitle/logo_jp_mask.png", "to": [19, 17]},
+    {"op": "erase", "mask": "MainTitle/kana_mask.png", "to": [114, 152]},
+    {"op": "image", "src": "MainTitle/logo_en_fin.png", "to": [19, 17]}
+  ]
+}

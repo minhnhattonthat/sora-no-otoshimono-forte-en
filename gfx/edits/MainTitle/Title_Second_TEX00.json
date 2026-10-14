@@ -1,0 +1,9 @@
+{
+  "_note": "Game logo (texture rect 0 = logo, rects 1/2 = 'Dreamy Season' colour + white flash copies). logo_en.png is made by logo_en.py (English lettering after Funimation's 'Heaven's Lost Property Forte' logo, over the game's own wing swoosh). The katakana reading under 'Dreamy Season' is dropped. Title_Second_TEX00_ef.NCLR (glow palette) shares the indices.",
+  "file": "_Data/MainTitle/Title_Second_TEX00_LZ.NCBR",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 224, 136], "color": "transparent"},
+    {"op": "image", "src": "MainTitle/logo_en.png", "to": [0, 0]},
+    {"op": "fill", "rect": [0, 152, 192, 8], "color": "transparent"}
+  ]
+}

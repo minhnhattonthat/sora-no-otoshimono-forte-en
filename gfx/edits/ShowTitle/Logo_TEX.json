@@ -1,0 +1,9 @@
+{
+  "_note": "Game logo on the episode title screens: same art as MainTitle/Title_Second_TEX00 (logo at 0,0; 'Dreamy Season' at 95,120). English logo from MainTitle/logo_en.py; the katakana reading under 'Dreamy Season' is dropped.",
+  "file": "_Data/ShowTitle/ShowTitle_Logo_TEX_LZ.NCBR",
+  "ops": [
+    {"op": "fill", "rect": [0, 0, 224, 144], "color": "transparent"},
+    {"op": "image", "src": "MainTitle/logo_en.png", "to": [0, 0]},
+    {"op": "image", "src": "MainTitle/dreamy.png", "to": [95, 120]}
+  ]
+}

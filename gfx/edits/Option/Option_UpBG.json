@@ -1,0 +1,10 @@
+{
+  "_note": "Options top screen (OBJ cells): small copy of the game logo, scale ~0.395 at 166,117 ('Dreamy Season' at 203,164).",
+  "file": "_Data/Option/Option_UpBG_LZ.NCGR",
+  "cells": "_Data/Option/Option_UpBG.NCER",
+  "ops": [
+    {"op": "erase", "mask": "MainTitle/logo_jp_mask.png", "scale": 0.395, "to": [166, 117]},
+    {"op": "erase", "mask": "MainTitle/kana_mask.png", "scale": 0.395, "to": [203, 170]},
+    {"op": "image", "src": "MainTitle/logo_en.png", "scale": 0.395, "to": [166, 117]}
+  ]
+}

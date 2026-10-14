@@ -1,0 +1,10 @@
+{
+  "_note": "Credits top screen: the game logo baked into the sky (logo at 19,17, 'Dreamy Season' at 114,137). The JP logo and the katakana reading are erased (row fill), then the English logo from MainTitle/logo_en.py is pasted.",
+  "file": "_Data/StaffRoll/StaffRoll_Up_LZ.NCGR",
+  "screen": "_Data/StaffRoll/StaffRoll_Up.NSCR",
+  "ops": [
+    {"op": "erase", "mask": "MainTitle/logo_jp_mask.png", "to": [19, 17]},
+    {"op": "erase", "mask": "MainTitle/kana_mask.png", "to": [114, 152]},
+    {"op": "image", "src": "MainTitle/logo_en.png", "to": [19, 17]}
+  ]
+}

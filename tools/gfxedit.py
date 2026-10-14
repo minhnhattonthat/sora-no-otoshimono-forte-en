@@ -276,19 +276,38 @@ def op_copy(cv, op):
                 cv.idx[ty + dy][tx + dx] = v
 
 
-def op_erase(cv, op):
-    """Replace pixels whose colour is in op['colors'] (inside rect) by the nearest other pixel on the same row."""
-    x0, y0, w, h = op['rect']
-    kill = set()
-    for c in op['colors']:
-        r, g, b = int(c[1:3], 16), int(c[3:5], 16), int(c[5:7], 16)
-        kill.add((r, g, b))
-    tol = op.get('tolerance', 24)
+def load_png(op):
+    """RGBA image of an op's "src"/"mask" (path relative to gfx/edits/), scaled by op["scale"] if given."""
+    img = Image.open(os.path.join(EDITS, op.get('src') or op['mask'])).convert('RGBA')
+    if 'scale' in op:
+        img = img.resize((round(img.width * op['scale']), round(img.height * op['scale'])), Image.LANCZOS)
+    return img
 
-    def is_kill(x, y):
-        base = cv.bank[y][x] * 16 if cv.bank else 0
-        pr, pg, pb = cv.pal[base + cv.idx[y][x]]
-        return any(abs(pr - r) + abs(pg - g) + abs(pb - b) <= tol for r, g, b in kill)
+
+def op_erase(cv, op):
+    """Replace pixels whose colour is in op['colors'] (inside rect) by the nearest other pixel on the same row.
+    With "mask" (a PNG placed at "to") instead: replace the mask's opaque pixels, taking the nearest non-mask pixel
+    of the whole row."""
+    if 'mask' in op:
+        m = load_png(op)
+        mx, my = op['to']
+        a = m.getchannel('A').load()
+        op = dict(op, rect=[0, my, cv.w, m.height])
+
+        def is_kill(x, y):
+            return 0 <= x - mx < m.width and a[x - mx, y - my] > 0
+    else:
+        kill = set()
+        for c in op['colors']:
+            r, g, b = int(c[1:3], 16), int(c[3:5], 16), int(c[5:7], 16)
+            kill.add((r, g, b))
+        tol = op.get('tolerance', 24)
+
+        def is_kill(x, y):
+            base = cv.bank[y][x] * 16 if cv.bank else 0
+            pr, pg, pb = cv.pal[base + cv.idx[y][x]]
+            return any(abs(pr - r) + abs(pg - g) + abs(pb - b) <= tol for r, g, b in kill)
+    x0, y0, w, h = op['rect']
 
     for y in range(y0, min(y0 + h, cv.h)):
         row = list(range(x0, min(x0 + w, cv.w)))
@@ -299,6 +318,28 @@ def op_erase(cv, op):
         for x in bad:
             nx = min(good, key=lambda g: abs(g - x))
             cv.idx[y][x] = cv.idx[y][nx]
+
+
+def op_image(cv, op):
+    """Paste an RGBA PNG at "to": blended over the pixel below, then snapped to the nearest palette colour.
+    Over transparent pixels it is drawn where alpha >= 128 (unblended)."""
+    img = load_png(op)
+    tx, ty = op['to']
+    src = img.load()
+    for y in range(img.height):
+        for x in range(img.width):
+            r, g, b, a = src[x, y]
+            cx, cy = tx + x, ty + y
+            if not a or not (0 <= cx < cv.w and 0 <= cy < cv.h):
+                continue
+            under = cv.idx[cy][cx]
+            if under == 0:
+                if a < 128:
+                    continue
+            elif a < 255:
+                pr, pg, pb = cv.pal[(cv.bank[cy][cx] * 16 if cv.bank else 0) + under]
+                r, g, b = ((c * a + p * (255 - a)) // 255 for c, p in ((r, pr), (g, pg), (b, pb)))
+            cv.idx[cy][cx] = cv.color(cx, cy, '#%02x%02x%02x' % (r, g, b))
 
 
 def wrap(font, text, width):
@@ -371,7 +412,7 @@ def op_layout(cv, op, files):
     cv.extra[path] = bytes(d)
 
 
-OPS = {'fill': op_fill, 'copy': op_copy, 'erase': op_erase}
+OPS = {'fill': op_fill, 'copy': op_copy, 'erase': op_erase, 'image': op_image}
 
 
 def run(spec, files):

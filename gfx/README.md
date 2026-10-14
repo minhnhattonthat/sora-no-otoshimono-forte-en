@@ -34,7 +34,14 @@ Ops (coordinates are pixels in the orig.png; rect = [x, y, w, h]):
 - `{"op":"fill","rect":[..],"color":"#rrggbb"|"transparent"}` - flat fill (erase text on a flat box / transparent area).
 - `{"op":"erase","rect":[..],"colors":["#rrggbb",..],"tolerance":24}` - replace pixels of the listed colours (the
   text and its outline) by the nearest other pixel on the same row; for text over gradients/artwork.
+  With `"mask":"<png>","to":[x,y]` instead of rect/colors: replace every opaque pixel of that PNG (path relative to
+  gfx/edits/, placed at `to`) by the nearest non-mask pixel of the whole row; for removing a known shape (a logo) from
+  a background.
 - `{"op":"copy","from":[x,y,w,h],"to":[x,y]}` - copy a clean patch of background over the text.
+- `{"op":"image","src":"<png>","to":[x,y]}` - paste an RGBA PNG (path relative to gfx/edits/): semi-transparent pixels
+  are blended over the pixel below, then every pixel snaps to the nearest palette colour; over transparent pixels
+  (index 0) only alpha >= 128 is drawn. `image` and mask-`erase` take an optional `"scale": 0.4` (PNG resized first).
+  Used for the game logo (gfx/edits/MainTitle/logo_en.py makes the PNGs).
 - `{"op":"text","rect":[..],"text":"...","font":"f12"|"f10"|"<file>.ttf:<px>","color":"#rrggbb",
    "outline":"#rrggbb","shadow":"#rrggbb","align":"left|center|right","valign":"top|middle|bottom",
    "lineh":13,"wrap":true,"bold":false}`

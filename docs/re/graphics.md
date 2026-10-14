@@ -41,7 +41,7 @@ Same text repeated across many files:
 - **Stat labels** (煩悩耐久力/指先技術力/変態紳士力/生存本能力/異性懐柔力) also appear in TomokiTraining_DownTEX00 and Trial_Various_Pause.
 - **はい/いいえ/OK buttons**: AdvTalk_02_m, EmblemList_TEX01, Training_DownTEX01, Trial_Various_Pause.
 - **モドル (Back) button**: AdvTalk_01_m, DelusionSelect Training_DownMisc01, EmblemList_TEX00, Friendly_TEX00, Option_Tex01, Training_DownTEX00, Book_Interface.
-- **Game logo** (そらのおとしもの フォルテ / ドリーミーシーズン): MainTitle Title_Second_TEX00, ShowTitle_Logo_TEX, StaffFin_Up, StaffRoll_Up, StaffRoll_DownNN_00 (as text), Option_UpBG (garbled).
+- **Game logo** (そらのおとしもの フォルテ / ドリーミーシーズン): MainTitle Title_Second_TEX00, ShowTitle_Logo_TEX, StaffFin_Up, StaffRoll_Up, StaffRoll_DownNN_00 (as text), Option_UpBG (OBJ cells; renders fine with the NCER, small copy at scale ~0.395, 166,117). Same art everywhere: TEX00 rect 0 (224x136) is the logo, 'Dreamy Season' sits at logo + (95,120); StaffRoll_Up/StaffFin_Up have it baked at 19,17 (StaffFin_Up = StaffRoll_Up through an affine RGB tint). At boot the logo quad is revealed left to right in the glow palette Title_Second_TEX00_ef.NCLR (= normal colours x2), then fades to the normal palette and 'Dreamy Season' (rect 1, rect 2 = its white flash copy) fades in. English logo: gfx/edits/MainTitle/logo_en.py (lettering after Funimation's "Heaven's Lost Property Forte" logo over the game's own wing swoosh; katakana reading dropped).
 - **Main menu buttons**: Title_Second_TEX01 (blue) and TEX02 (pink selected state) have the same 8 labels.
 - **Tutorial chalkboard** DelusionSelect/Event_00_50_s and its garbled copy EventSub/Event_00_50.
 
@@ -263,7 +263,7 @@ No text: SampleSub (starfield, slightly garbled).
 |---|---|---|---|---|---|
 | Option | Option_Tex00 | options page 1 | ボリューム設定; メッセージ音; テキスト設定; 文章スキップ; 既読のみ / すべて (x2 styles); 設定1 | Volume Settings; Message Sound; Text Settings; Text Skip; Read Only / All; Settings 1 | OPTION, BGM, SE, VOICE, ON/OFF, typeA/B/C already English |
 | Option | Option_Tex01 | options page 2 | ビジュアル設定; コミュニケーション画面; サイドキャラクター設定; 全てON / 全てOFF (x2); 設定2; モドル | Visual Settings; Communication Screen; Side Character Settings; All ON / All OFF; Settings 2; Back | |
-| Option | Option_UpBG | top-screen bg | game-logo fragments (そらのおとしもの…) | (logo) | garbled - needs proper render |
+| Option | Option_UpBG | top-screen bg | game logo, small (そらのおとしもの…) | (logo) | OBJ cells (NCER); renders fine as cells, see Game logo above |
 
 No text: Option_DownBG.
 
