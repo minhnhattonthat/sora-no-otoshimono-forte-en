@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#135",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#136",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#137",
+ "_note": "Event title 取り扱い注意 -> Handle with Care (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Handle with Care",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

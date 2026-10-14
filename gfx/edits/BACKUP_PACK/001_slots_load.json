@@ -1,0 +1,282 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#1",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#2",
+ "_note": "Episode/Act labels, Back button (モドル). NO DATA, digits: already fine.",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    106,
+    39,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    104,
+    39,
+    16
+   ],
+   "text": "Episode 1",
+   "font": "f10",
+   "color": "#ffffff",
+   "align": "left",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    40,
+    106,
+    39,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    40,
+    104,
+    39,
+    16
+   ],
+   "text": "Episode 2",
+   "font": "f10",
+   "color": "#ffffff",
+   "align": "left",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    80,
+    106,
+    39,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    80,
+    104,
+    39,
+    16
+   ],
+   "text": "Episode 3",
+   "font": "f10",
+   "color": "#ffffff",
+   "align": "left",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    120,
+    106,
+    39,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    120,
+    104,
+    39,
+    16
+   ],
+   "text": "Episode 4",
+   "font": "f10",
+   "color": "#ffffff",
+   "align": "left",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    160,
+    106,
+    39,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    160,
+    104,
+    39,
+    16
+   ],
+   "text": "Episode 5",
+   "font": "f10",
+   "color": "#ffffff",
+   "align": "left",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    200,
+    106,
+    39,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    200,
+    104,
+    39,
+    16
+   ],
+   "text": "Episode 6",
+   "font": "f10",
+   "color": "#ffffff",
+   "align": "left",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    124,
+    38,
+    11
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    122,
+    38,
+    14
+   ],
+   "text": "Act 1",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    40,
+    124,
+    38,
+    11
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    40,
+    122,
+    38,
+    14
+   ],
+   "text": "Act 2",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    80,
+    124,
+    38,
+    11
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    80,
+    122,
+    38,
+    14
+   ],
+   "text": "Act 3",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    120,
+    124,
+    38,
+    11
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    120,
+    122,
+    38,
+    14
+   ],
+   "text": "Act 4",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  },
+  {
+   "op": "fill",
+   "rect": [
+    3,
+    82,
+    26,
+    9
+   ],
+   "color": "#296aee"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    80,
+    28,
+    13
+   ],
+   "text": "Back",
+   "font": "arialbd.ttf:11",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

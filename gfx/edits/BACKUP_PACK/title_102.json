@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#102",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#103",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#104",
+ "_note": "Event title ばっちり女の子！？ -> A Perfect Girl?! (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "A Perfect Girl?!",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

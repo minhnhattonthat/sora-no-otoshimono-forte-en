@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#117",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#118",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#119",
+ "_note": "Event title 不審なそはら？ -> Suspicious Sohara? (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Suspicious Sohara?",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

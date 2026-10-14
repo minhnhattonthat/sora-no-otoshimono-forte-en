@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#195",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#196",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#197",
+ "_note": "Event title 居間からの脱出 -> Living Room Escape (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Living Room Escape",
+   "font": "arialnb.ttf:13",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

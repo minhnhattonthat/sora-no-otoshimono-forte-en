@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#210",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#211",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#212",
+ "_note": "Event title 泣くなイカロス -> Don't Cry, Ikaros (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Don't Cry, Ikaros",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

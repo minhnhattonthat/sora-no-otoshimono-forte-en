@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#144",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#145",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#146",
+ "_note": "Event title 皆でスイカ？割り  １ -> Melon(?) Splitting 1 (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#3183ff"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Melon(?) Splitting 1",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

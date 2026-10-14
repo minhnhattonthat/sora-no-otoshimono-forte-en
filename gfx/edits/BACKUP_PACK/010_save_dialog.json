@@ -1,0 +1,526 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#10",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#11",
+ "_note": "Question header, Yes/No buttons, busy box, power warning, save complete. OK buttons: already English.",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    46,
+    7,
+    114,
+    19
+   ],
+   "color": "#ffc5d5"
+  },
+  {
+   "op": "text",
+   "rect": [
+    46,
+    7,
+    114,
+    19
+   ],
+   "text": "Save here?",
+   "font": "arialbd.ttf:13",
+   "color": "#ff738b",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff"
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    21,
+    67
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    34,
+    67
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    47,
+    67
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    60,
+    67
+   ]
+  },
+  {
+   "op": "text",
+   "rect": [
+    4,
+    66,
+    80,
+    18
+   ],
+   "text": "Yes",
+   "font": "arialbd.ttf:14",
+   "color": "#416af6",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff",
+   "bold": true
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    109,
+    67
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    122,
+    67
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    135,
+    67
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    67,
+    13,
+    15
+   ],
+   "to": [
+    148,
+    67
+   ]
+  },
+  {
+   "op": "text",
+   "rect": [
+    92,
+    66,
+    80,
+    18
+   ],
+   "text": "No",
+   "font": "arialbd.ttf:14",
+   "color": "#416af6",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff",
+   "bold": true
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    21,
+    91
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    34,
+    91
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    47,
+    91
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    60,
+    91
+   ]
+  },
+  {
+   "op": "text",
+   "rect": [
+    4,
+    90,
+    80,
+    18
+   ],
+   "text": "Yes",
+   "font": "arialbd.ttf:14",
+   "color": "#ff2000",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff",
+   "bold": true
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    109,
+    91
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    122,
+    91
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    135,
+    91
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    91,
+    13,
+    15
+   ],
+   "to": [
+    148,
+    91
+   ]
+  },
+  {
+   "op": "text",
+   "rect": [
+    92,
+    90,
+    80,
+    18
+   ],
+   "text": "No",
+   "font": "arialbd.ttf:14",
+   "color": "#ff2000",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff",
+   "bold": true
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    21,
+    115
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    34,
+    115
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    47,
+    115
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    8,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    60,
+    115
+   ]
+  },
+  {
+   "op": "text",
+   "rect": [
+    4,
+    114,
+    80,
+    18
+   ],
+   "text": "Yes",
+   "font": "arialbd.ttf:14",
+   "color": "#ff2000",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff",
+   "bold": true
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    109,
+    115
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    122,
+    115
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    135,
+    115
+   ]
+  },
+  {
+   "op": "copy",
+   "from": [
+    96,
+    115,
+    13,
+    15
+   ],
+   "to": [
+    148,
+    115
+   ]
+  },
+  {
+   "op": "text",
+   "rect": [
+    92,
+    114,
+    80,
+    18
+   ],
+   "text": "No",
+   "font": "arialbd.ttf:14",
+   "color": "#ff2000",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff",
+   "bold": true
+  },
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    136,
+    104,
+    16
+   ],
+   "color": "#ffc5d5"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    136,
+    104,
+    16
+   ],
+   "text": "Saving...",
+   "font": "arialbd.ttf:12",
+   "color": "#ff738b",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff"
+  },
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    152,
+    168,
+    32
+   ],
+   "color": "transparent"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    153,
+    168,
+    30
+   ],
+   "text": "Don't turn off the power or\nremove the Game Card.",
+   "font": "f12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#839cff",
+   "lineh": 14
+  },
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    240,
+    114,
+    16
+   ],
+   "color": "#ffc5d5"
+  },
+  {
+   "op": "text",
+   "rect": [
+    0,
+    240,
+    114,
+    16
+   ],
+   "text": "Save complete.",
+   "font": "arialbd.ttf:12",
+   "color": "#ff738b",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false,
+   "outline": "#ffffff"
+  }
+ ]
+}

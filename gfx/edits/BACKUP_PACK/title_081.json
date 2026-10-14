@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#81",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#82",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#83",
+ "_note": "Event title ニンフ、感心する -> Nymph Is Impressed (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Nymph Is Impressed",
+   "font": "arialnb.ttf:13",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

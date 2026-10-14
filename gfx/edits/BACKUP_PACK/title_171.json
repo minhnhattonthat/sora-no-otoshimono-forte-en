@@ -1,0 +1,43 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#171",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#172",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#173",
+ "_note": "Event title 先輩Ω -> Senpai♥ (text/en/misc.json). The original heart glyph is kept.",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    75,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "fill",
+   "rect": [
+    86,
+    2,
+    34,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    34,
+    0,
+    39,
+    16
+   ],
+   "text": "Senpai",
+   "font": "arialbd.ttf:12",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}

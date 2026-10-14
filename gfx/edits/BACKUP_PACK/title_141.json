@@ -1,0 +1,33 @@
+{
+ "file": "_Data/BackUp/BACKUP_PACK.bin#141",
+ "cells": "_Data/BackUp/BACKUP_PACK.bin#142",
+ "palette": "_Data/BackUp/BACKUP_PACK.bin#143",
+ "_note": "Event title ネコミミトモ子！？ -> Cat-Eared Tomoko?! (text/en/misc.json).",
+ "ops": [
+  {
+   "op": "fill",
+   "rect": [
+    0,
+    2,
+    120,
+    12
+   ],
+   "color": "#ff529c"
+  },
+  {
+   "op": "text",
+   "rect": [
+    2,
+    0,
+    116,
+    16
+   ],
+   "text": "Cat-Eared Tomoko?!",
+   "font": "arialnb.ttf:13",
+   "color": "#ffffff",
+   "align": "center",
+   "valign": "middle",
+   "wrap": false
+  }
+ ]
+}
