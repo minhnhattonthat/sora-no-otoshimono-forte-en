@@ -111,8 +111,9 @@ def assemble(code, addr):
     return bytes(enc)
 
 
-def patch_arm9(arm9, ram, settings_ptr, table):
-    """arm9: compressed arm9 bytes from the ROM. Returns new compressed arm9."""
+def patch_arm9(arm9, ram, settings_ptr, table, text_patch=None):
+    """arm9: compressed arm9 bytes from the ROM. text_patch(main_bytes) -> bytes edits data in place (strings).
+    Returns new compressed arm9."""
     code = ndspy.code.MainCodeFile(arm9, ram, settings_ptr)
     main = code.sections[0]
     itcm = [s for s in code.sections if s.ramAddress == 0x01FF8000][0]
@@ -126,7 +127,7 @@ def patch_arm9(arm9, ram, settings_ptr, table):
     itcm.data = bytes(itcm.data) + blob + b'\0' * (-len(blob) % 32)
     new_end = itcm.ramAddress + len(itcm.data)
 
-    m = bytearray(main.data)
+    m = bytearray(text_patch(bytes(main.data)) if text_patch else main.data)
     lit = ITCM_ARENA_LIT - main.ramAddress
     assert struct.unpack_from('<I', m, lit)[0] == 0x01FF8540
     struct.pack_into('<I', m, lit, new_end)

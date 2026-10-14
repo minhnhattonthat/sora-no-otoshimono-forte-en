@@ -1,0 +1,15 @@
+{
+"_comment": "tools/arm9text.py: arm9 strings patched in place; English + NUL must fit the slot (see the listing).",
+"設定が反映されませんでした。\n電源をお切りになり、\nカードを差込み直してください。": "Settings could not be saved.\nTurn the power off and\nreinsert the Game Card.",
+"データを書けませんでした。\n電源を切って、カードを差込み直してください": "Could not write data.\nTurn off the power and reinsert the Game Card.",
+"データを読めませんでした。\n電源を切って、カードを差込み直してください": "Could not read data.\nTurn off the power and reinsert the Game Card.",
+"はい": "Yes",
+"いいえ": "No",
+"妄想を開始しますか？": "Start the delusion?",
+"妄想パラメータＬＶ合計：%2d": "Delusion LV total: %2d",
+"リプレイ妄想クリアランク：%s": "Replay clear rank: %s",
+"ストーリーモードで": "Only situations",
+"解放したシチュエーションのみ": "unlocked in Story Mode",
+"プレイ可能です。": "can be played.",
+"ダミーイベント%03d": "Dummy Event %03d"
+}

@@ -10,6 +10,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 import ndspy.rom  # noqa: E402
+import arm9text  # noqa: E402
 import extract  # noqa: E402
 import gfxedit  # noqa: E402
 import misctext  # noqa: E402
@@ -140,4 +141,5 @@ def apply(rom, ids, marker=None):
     gfxedit.apply(rom, ids)
 
     r = ndspy.rom.NintendoDSRom.fromFile(romfs.ROM)
-    rom.set_arm9(vwf.patch_arm9(r.arm9, r.arm9RamAddress, r.arm9CodeSettingsPointerAddress, table))
+    rom.set_arm9(vwf.patch_arm9(r.arm9, r.arm9RamAddress, r.arm9CodeSettingsPointerAddress, table,
+                                arm9text.patch))
