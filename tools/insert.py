@@ -11,6 +11,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import ndspy.rom  # noqa: E402
 import extract  # noqa: E402
+import gfxedit  # noqa: E402
 import misctext  # noqa: E402
 import romfs  # noqa: E402
 import script  # noqa: E402
@@ -136,6 +137,7 @@ def apply(rom, ids, marker=None):
     fid = ids['_Data/AdvTalk/CharaName.dat']
     rom.replace(fid, chara_names(rom.read(fid), load_names()))
     misctext.apply(rom, ids)
+    gfxedit.apply(rom, ids)
 
     r = ndspy.rom.NintendoDSRom.fromFile(romfs.ROM)
     rom.set_arm9(vwf.patch_arm9(r.arm9, r.arm9RamAddress, r.arm9CodeSettingsPointerAddress, table))
