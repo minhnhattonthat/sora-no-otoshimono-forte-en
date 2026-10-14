@@ -77,10 +77,21 @@ def translator(en):
     return tr
 
 
+# Event titles longer than this crash the event-select screen (24 tested fine, 31 crashed; JP max is 22).
+EVENT_MAX = 24
+
+
 def apply(rom, ids):
     tr = translator(load_en())
+
+    def tr_event(b):
+        new = tr(b)
+        if new is not None and len(new) > EVENT_MAX:
+            raise ValueError(f'event title over {EVENT_MAX} bytes: {new!r}')
+        return new
+
     for p in FILES:
-        rom.replace(ids[p], rebuild(p, rom.read(ids[p]), tr))
+        rom.replace(ids[p], rebuild(p, rom.read(ids[p]), tr_event if 'EventData' in p else tr))
 
 
 def extract():

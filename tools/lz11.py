@@ -57,6 +57,8 @@ def compress(src):
                     disp = i - j
                     if disp > 4096:
                         break
+                    if disp < 2:  # VRAM-safe: the 16-bit decompressor can't copy from the byte just written
+                        continue
                     ln = 3
                     while ln < 0x10110 and i + ln < n and src[j + ln] == src[i + ln]:
                         ln += 1

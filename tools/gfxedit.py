@@ -119,8 +119,14 @@ class Canvas:
     def color(self, x, y, spec):
         if spec == 'transparent':
             return 0
-        r, g, b = int(spec[1:3], 16), int(spec[3:5], 16), int(spec[5:7], 16)
         base = self.bank[y][x] * 16 if self.bank else 0
+        cache = self.__dict__.setdefault('_cc', {})
+        if (base, spec) not in cache:
+            cache[(base, spec)] = self._nearest(base, spec)
+        return cache[(base, spec)]
+
+    def _nearest(self, base, spec):
+        r, g, b = int(spec[1:3], 16), int(spec[3:5], 16), int(spec[5:7], 16)
         n = 16 if (self.bank is not None and self.char.bpp == 4) else len(self.pal)
         best, bi = None, 1
         for i in range(1, n):
@@ -377,7 +383,10 @@ def run(spec, files):
 
 # ---------------------------------------------------------------- entry points
 def specs():
+    only = os.environ.get('GFX_ONLY')  # e.g. GFX_ONLY=ShowTitle,Result: build just those folders (or "none")
     for p in sorted(glob.glob(os.path.join(EDITS, '**', '*.json'), recursive=True)):
+        if only and os.path.relpath(p, EDITS).split(os.sep)[0] not in only.split(','):
+            continue
         with open(p, encoding='utf-8') as f:
             yield p, json.load(f)
 
