@@ -32,6 +32,12 @@ Skill: translate-retro-game (H:/translation/sora-no-otoshimono-forte-dreamy-seas
 - Speaker plates <= 72 px. Choices <= 200 px.
 
 ## Status (2026-10-15)
-- Done: engine (VWF, overflow boxes), all 20,046 script strings translated + merged, names, misc files, arm9 strings.
-- In progress: graphics text (11 agents writing gfx/edits specs), sampled translation review (6 reviewers).
-- Next: build + in-game QA of graphics; choice/name plate checks; full-route QA via savestates; release patch.
+- Done: engine (VWF, overflow boxes), all 20,046 script strings translated + merged, names, misc files, arm9 strings,
+  graphics specs for every screen found (incl. staff roll, EventMain tutorial, NormalMain delusion banner), sampled review.
+- Fixed from QA: Trial pack block lengths (scenes stuck at 00:00), quote glyphs, Trial lines kept to 2 rows.
+- Leftover-Japanese scan (code + script/data files): clean. Title logo kept Japanese. 21 staff-name readings unverified
+  (docs/re/graphics.md).
+- QA routes: cold boot "1500 -;4 a;300 -" --mash 20 reaches Event Select ~f26000; A opens "Go to the next episode?"
+  (default No: left, A). Trial tutorial menu needs d-pad, not touch. Pause > Skip passes a Trial scene.
+- Graphics specs use Windows fonts (arialbd, arialnb, comicz, segoeuib, ...): build on Windows.
+- Next: later-episode QA, release patch (tools/release.py) once the user approves.
