@@ -1,0 +1,8 @@
+{
+  "file": "_Data/AutoSave/LoadError.NCGR",
+  "screen": "_Data/AutoSave/LoadError.NSCR",
+  "ops": [
+    {"op": "fill", "rect": [0, 80, 256, 32], "color": "#000000"},
+    {"op": "text", "rect": [0, 76, 256, 40], "text": "Could not read the data.\nPlease turn the power off and\nreinsert the Game Card.", "font": "f12", "color": "#ffffff", "align": "center", "valign": "middle", "wrap": false, "lineh": 13}
+  ]
+}

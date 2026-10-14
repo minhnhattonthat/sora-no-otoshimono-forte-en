@@ -1,0 +1,24 @@
+{
+  "file": "_Data/Book/Book_BG_LZ.NCGR",
+  "screen": "_Data/Book/Book_BG.NSCR",
+  "ops": [
+    {"op": "fill", "rect": [16, 1, 54, 14], "color": "#f65acd"},
+    {"op": "text", "rect": [16, 0, 78, 14], "text": "Member Roster", "font": "arialnb.ttf:11", "color": "#ffffff", "align": "left", "valign": "middle", "wrap": false, "outline": "#e610e6"},
+    {"op": "erase", "rect": [34, 29, 44, 17], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#947362", "#9c7b6a", "#9c836a", "#ac8b7b", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#dec5c5", "#eed5cd"], "tolerance": 0},
+    {"op": "text", "rect": [37, 27, 40, 20], "text": "Name", "font": "ARIALNBI.TTF:15", "color": "#522900", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [34, 52, 44, 17], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c836a", "#ac8b7b", "#b49483", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#eed5cd", "#eed5d5"], "tolerance": 0},
+    {"op": "text", "rect": [37, 50, 40, 20], "text": "Face", "font": "ARIALNBI.TTF:15", "color": "#522900", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [34, 75, 44, 17], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c7b6a", "#9c836a", "#ac8b7b", "#ac947b", "#b49483", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#dec5c5", "#decdc5", "#e6c5bd", "#eed5cd", "#eed5d5"], "tolerance": 0},
+    {"op": "text", "rect": [37, 73, 40, 20], "text": "Voice", "font": "ARIALNBI.TTF:15", "color": "#522900", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [34, 98, 44, 17], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c7b6a", "#9c836a", "#ac8b73", "#ac8b7b", "#ac947b", "#b49483", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#dec5c5", "#decdc5", "#e6c5bd", "#eed5cd", "#eed5d5"], "tolerance": 0},
+    {"op": "text", "rect": [37, 96, 40, 20], "text": "BGM", "font": "ARIALNBI.TTF:15", "color": "#522900", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [34, 121, 44, 17], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c7b6a", "#9c836a", "#ac8b73", "#ac8b7b", "#ac947b", "#b49483", "#b49c8b", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#dec5c5", "#decdc5", "#eed5cd"], "tolerance": 0},
+    {"op": "text", "rect": [37, 119, 40, 20], "text": "Scene", "font": "ARIALNBI.TTF:15", "color": "#522900", "align": "left", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [40, 142, 42, 13], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c7b6a", "#9c836a", "#ac8b7b", "#b49483", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#dec5c5", "#eed5cd"], "tolerance": 0},
+    {"op": "text", "rect": [40, 141, 42, 15], "text": "Play Voice", "font": "ARIALNI.TTF:10", "color": "#522900", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [110, 142, 41, 13], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c7b6a", "#9c836a", "#ac8b7b", "#b49483", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#dec5c5", "#eed5cd"], "tolerance": 0},
+    {"op": "text", "rect": [110, 141, 41, 15], "text": "Play BGM", "font": "ARIALNI.TTF:10", "color": "#522900", "align": "center", "valign": "middle", "wrap": false},
+    {"op": "erase", "rect": [175, 142, 41, 13], "colors": ["#522900", "#5a3110", "#624120", "#734a31", "#735231", "#7b5a39", "#7b5a41", "#83624a", "#836a52", "#94735a", "#947362", "#9c7b6a", "#9c836a", "#ac8b7b", "#b49483", "#b49c8b", "#bda494", "#bda49c", "#cdaca4", "#cdb4ac", "#d5bdb4", "#d5c5bd", "#eed5cd"], "tolerance": 0},
+    {"op": "text", "rect": [175, 141, 41, 15], "text": "Stop BGM", "font": "ARIALNI.TTF:10", "color": "#522900", "align": "center", "valign": "middle", "wrap": false}
+  ]
+}

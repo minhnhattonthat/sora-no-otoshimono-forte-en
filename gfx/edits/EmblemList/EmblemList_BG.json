@@ -1,0 +1,14 @@
+{
+  "file": "_Data/EmblemList/EmblemList_BG_LZ.NCGR",
+  "screen": "_Data/EmblemList/EmblemList_BG.NSCR",
+  "ops": [
+    {"op": "fill", "rect": [19, 1, 60, 14], "color": "#186aff"},
+    {"op": "text", "rect": [19, 1, 84, 14], "text": "Title List", "font": "tahomabd.ttf:10", "color": "#ffffff", "align": "left", "valign": "middle", "wrap": false, "outline": "#0041ee"},
+    {"op": "copy", "from": [52, 166, 8, 12], "to": [17, 166]},
+    {"op": "copy", "from": [52, 166, 8, 12], "to": [25, 166]},
+    {"op": "copy", "from": [52, 166, 8, 12], "to": [33, 166]},
+    {"op": "copy", "from": [52, 166, 8, 12], "to": [41, 166]},
+    {"op": "copy", "from": [52, 166, 3, 12], "to": [49, 166]},
+    {"op": "text", "rect": [18, 165, 34, 14], "text": "Done", "font": "arialbd.ttf:11", "color": "#c56a29", "align": "left", "valign": "middle", "wrap": false}
+  ]
+}

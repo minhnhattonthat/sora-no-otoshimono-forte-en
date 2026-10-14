@@ -1,0 +1,8 @@
+{
+  "file": "_Data/ActionChoice/ActionChoice_BG_LZ.NCGR",
+  "screen": "_Data/ActionChoice/ActionChoice_BG.NSCR",
+  "ops": [
+    {"op": "fill", "rect": [18, 1, 52, 14], "color": "#ee39de"},
+    {"op": "text", "rect": [18, 1, 76, 14], "text": "Action Select", "font": "arialnb.ttf:11", "color": "#ffffff", "align": "left", "valign": "middle", "wrap": false, "outline": "#de08c5"}
+  ]
+}

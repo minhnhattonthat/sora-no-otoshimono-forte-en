@@ -235,7 +235,7 @@ class TTF:
         return int(self.font.getlength(s))
 
     def mask(self, s):
-        w = max(1, self.width(s) + 4)
+        w = max(1, self.width(s), self.font.getbbox(s)[2]) + 4  # pixel-snapped glyphs can run past getlength()
         im = Image.new('1', (w, self.height + 2), 0)
         ImageDraw.Draw(im).text((0, 0), s, font=self.font, fill=1)
         px = im.load()

@@ -1,0 +1,26 @@
+{
+  "file": "_Data/ActionChoice/ActionChoice_TEXPlus_LZ.NCBR",
+  "ops": [
+    {"op": "erase", "rect": [1, 91, 54, 11], "colors": ["#00b4d5", "#5a73ff", "#6283ff", "#738bff", "#7b94ff", "#839cff", "#8ba4ff", "#94b4ff", "#9cb4ff", "#acbdff", "#b4cdff", "#bdcdff", "#cdd5ff", "#d5deff"], "tolerance": 0},
+    {"op": "text", "rect": [1, 91, 54, 11], "text": "Title List", "font": "f10", "color": "#3962ff", "align": "center", "valign": "middle", "wrap": false, "outline": "#ffffff"},
+    {"op": "erase", "rect": [65, 91, 54, 11], "colors": ["#5a73ff", "#6283ff", "#738bff", "#7b94ff", "#839cff", "#8ba4ff", "#94b4ff", "#9cb4ff", "#acbdff", "#b4cdff", "#bdcdff", "#cdd5ff", "#d5deff"], "tolerance": 0},
+    {"op": "text", "rect": [65, 91, 54, 11], "text": "Intimacy", "font": "f10", "color": "#3962ff", "align": "center", "valign": "middle", "wrap": false, "outline": "#ffffff"},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [18, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [26, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [34, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [42, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [50, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [58, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [66, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [74, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [82, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [90, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [98, 120]},
+    {"op": "copy", "from": [10, 120, 8, 13], "to": [106, 120]},
+    {"op": "copy", "from": [10, 120, 6, 13], "to": [114, 120]},
+    {"op": "copy", "from": [10, 120, 110, 13], "to": [10, 152]},
+    {"op": "text", "rect": [41, 118, 25, 17], "text": "Title", "font": "tahomabd.ttf:11", "align": "left", "valign": "middle", "wrap": false, "color": "#ffffff", "outline": "#e618cd"},
+    {"op": "text", "rect": [69, 118, 20, 17], "text": "List", "font": "tahomabd.ttf:11", "align": "left", "valign": "middle", "wrap": false, "color": "#ffffff", "outline": "#e618cd"},
+    {"op": "text", "rect": [40, 150, 51, 17], "text": "Intimacy", "font": "tahomabd.ttf:11", "align": "left", "valign": "middle", "wrap": false, "color": "#ffffff", "outline": "#e618cd"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "file": "_Data/Friendly/Friendly_TEX00_LZ.NCBR",
+  "ops": [
+    {"op": "fill", "rect": [4, 9, 26, 6], "color": "#296aee"},
+    {"op": "fill", "rect": [7, 15, 23, 3], "color": "#296aee"},
+    {"op": "fill", "rect": [29, 12, 3, 4], "color": "#296aee"},
+    {"op": "text", "rect": [4, 8, 27, 11], "text": "Back", "font": "arialbd.ttf:11", "color": "#ffffff", "align": "center", "valign": "middle", "wrap": false}
+  ]
+}

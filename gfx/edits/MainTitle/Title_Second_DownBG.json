@@ -1,0 +1,18 @@
+{
+  "file": "_Data/MainTitle/Title_Second_DownBG_LZ.NCGR",
+  "screen": "_Data/MainTitle/Title_Second_DownBG.NSCR",
+  "ops": [
+    {"op": "erase", "rect": [34, 165, 200, 27], "colors": ["#000000", "#101010", "#202020", "#313131", "#393939", "#414141", "#4a4a4a", "#525252", "#5a5a5a", "#626262", "#6a6a6a", "#737373", "#7b7b7b", "#838383", "#8b8b8b", "#949494", "#9c9c9c", "#acacac", "#b4b4b4", "#bdbdbd", "#c5c5c5", "#cdcdcd", "#d5d5d5", "#dedede", "#e6e6e6", "#eeeeee", "#f6f6f6"], "tolerance": 2},
+    {"op": "text", "rect": [45, 166, 28, 12], "text": "©2010", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [75, 166, 16, 12], "text": "Suu", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [93, 166, 83, 12], "text": "Minazuki/Kadokawa", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [178, 166, 33, 12], "text": "Shoten/", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [19, 178, 20, 12], "text": "New", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [41, 178, 23, 12], "text": "World", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [66, 178, 42, 12], "text": "Discovery", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [110, 178, 19, 12], "text": "Club", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [131, 178, 22, 12], "text": "Forte", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [155, 178, 52, 12], "text": "©Kadokawa", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"},
+    {"op": "text", "rect": [209, 178, 29, 12], "text": "Shoten", "font": "tahoma.ttf:9", "align": "left", "valign": "middle", "wrap": false, "color": "#313131"}
+  ]
+}

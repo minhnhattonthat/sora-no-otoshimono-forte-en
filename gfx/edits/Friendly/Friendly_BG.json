@@ -1,0 +1,8 @@
+{
+  "file": "_Data/Friendly/Friendly_BG_LZ.NCGR",
+  "screen": "_Data/Friendly/Friendly_BG.NSCR",
+  "ops": [
+    {"op": "fill", "rect": [18, 1, 41, 14], "color": "#ff39f6"},
+    {"op": "text", "rect": [18, 1, 65, 14], "text": "Intimacy", "font": "arialnb.ttf:11", "color": "#ffffff", "align": "left", "valign": "middle", "wrap": false, "outline": "#ee00c5"}
+  ]
+}
