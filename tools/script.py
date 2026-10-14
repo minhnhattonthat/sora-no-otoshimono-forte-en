@@ -63,7 +63,35 @@ class Cmd:
 
 def parse(data):
     sid, unk, n = struct.unpack_from('<IBH', data, 0)
-    pos, cmds = 7, []
+    cmds, pos = parse_cmds(data, 7, n)
+    return sid, unk, cmds, data[pos:]
+
+
+def build(sid, unk, cmds, tail=b''):
+    return struct.pack('<IBH', sid, unk, len(cmds)) + b''.join(c.encode() for c in cmds) + tail
+
+
+# Trial/PackScriptNN.dat: u16 nblocks, then per block an 11-byte header (u16, u16, u32, u8, u16 ncmds) + commands.
+def parse_pack(data):
+    nb = struct.unpack_from('<H', data, 0)[0]
+    pos, blocks = 2, []
+    for _ in range(nb):
+        head = data[pos:pos + 9]
+        n = struct.unpack_from('<H', data, pos + 9)[0]
+        cmds, pos = parse_cmds(data, pos + 11, n)
+        blocks.append((head, cmds))
+    return blocks, data[pos:]
+
+
+def build_pack(blocks, tail=b''):
+    out = struct.pack('<H', len(blocks))
+    for head, cmds in blocks:
+        out += head + struct.pack('<H', len(cmds)) + b''.join(c.encode() for c in cmds)
+    return out + tail
+
+
+def parse_cmds(data, pos, n):
+    cmds = []
 
     def raw(k):
         nonlocal pos
@@ -125,8 +153,4 @@ def parse(data):
         else:
             raise ValueError(f'unknown opcode {op:02x} at {start:#x}')
         cmds.append(Cmd(op, parts))
-    return sid, unk, cmds, data[pos:]
-
-
-def build(sid, unk, cmds, tail=b''):
-    return struct.pack('<IBH', sid, unk, len(cmds)) + b''.join(c.encode() for c in cmds) + tail
+    return cmds, pos

@@ -46,6 +46,18 @@ class Rom:
         struct.pack_into('<II', self.data, self.fat + 8 * fid, s, s + len(new))
         struct.pack_into('<H', self.data, 0x15E, crc16(self.data[:0x15E]))
 
+    def set_arm9(self, new):
+        """Replace the (compressed) arm9 in place; the 12-byte nitrocode footer moves to stay right after it."""
+        off, size = struct.unpack_from('<II', self.data, 0x20)[0], struct.unpack_from('<I', self.data, 0x2C)[0]
+        footer = bytes(self.data[off + size:off + size + 12])
+        limit = struct.unpack_from('<I', self.data, 0x50)[0]  # arm9 overlay table follows
+        if off + len(new) + 12 > limit:
+            raise ValueError(f'arm9 grew past the overlay table by {off + len(new) + 12 - limit} bytes')
+        self.data[off:limit] = b'\xff' * (limit - off)
+        self.data[off:off + len(new) + 12] = new + footer
+        struct.pack_into('<I', self.data, 0x2C, len(new))
+        struct.pack_into('<H', self.data, 0x15E, crc16(self.data[:0x15E]))
+
     def save(self, path):
         open(path, 'wb').write(self.data)
 
