@@ -1,0 +1,28 @@
+{
+ "file": "_Data/Trial/TrialInterface/Trial_Various_Counter_LZ.NCBR",
+ "_note": "4bpp, rects use palette banks 4 (Success) / 5 (Failure): colours here are bank-0 aliases of the indices",
+ "ops": [
+  {"op": "fill", "rect": [39, 114, 57, 27], "color": "transparent"},
+  {"op": "text", "rect": [39, 114, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [39, 115, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [39, 116, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 114, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 115, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 116, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [41, 114, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [41, 115, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [41, 116, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#00d5ff", "outline": "#00d5ff", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 115, 55, 25], "text": "Success!", "font": "arialnb.ttf:15", "color": "#5262ff", "outline": "#ffffff", "align": "center", "valign": "middle"},
+  {"op": "fill", "rect": [38, 147, 58, 27], "color": "transparent"},
+  {"op": "text", "rect": [38, 147, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [38, 148, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [38, 149, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [39, 147, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [39, 148, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [39, 149, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 147, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 148, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [40, 149, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#de008b", "outline": "#de008b", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [39, 148, 56, 25], "text": "Failure!", "font": "arialnb.ttf:15", "color": "#00ffff", "outline": "#ffffff", "align": "center", "valign": "middle"}
+ ]
+}

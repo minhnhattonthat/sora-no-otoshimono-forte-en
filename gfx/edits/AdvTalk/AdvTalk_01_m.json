@@ -1,0 +1,25 @@
+{
+ "file": "_Data/AdvTalk/AdvTalk_01_m_LZ.NCBR",
+ "ops": [
+  {"op": "fill", "rect": [48, 0, 40, 16], "color": "transparent"},
+  {"op": "text", "rect": [50, 2, 37, 13], "text": "Skip", "font": "f12", "color": "#002094", "outline": "#002094", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [49, 1, 37, 13], "text": "Skip", "font": "f12", "color": "#ffffff", "outline": "#ff5ad5", "align": "center", "valign": "middle"},
+  {"op": "fill", "rect": [88, 0, 40, 16], "color": "transparent"},
+  {"op": "text", "rect": [90, 2, 37, 13], "text": "Skip", "font": "f12", "color": "#002094", "outline": "#002094", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [89, 1, 37, 13], "text": "Skip", "font": "f12", "color": "#ffffff", "outline": "#ff83ee", "align": "center", "valign": "middle"},
+  {"op": "fill", "rect": [128, 0, 40, 16], "color": "transparent"},
+  {"op": "text", "rect": [130, 2, 37, 13], "text": "Skip", "font": "f12", "color": "#002094", "outline": "#002094", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [129, 1, 37, 13], "text": "Skip", "font": "f12", "color": "#ffffff", "outline": "#ffacff", "align": "center", "valign": "middle"},
+  {"op": "fill", "rect": [104, 112, 32, 16], "color": "transparent"},
+  {"op": "text", "rect": [106, 113, 29, 13], "text": "Auto", "font": "f12", "color": "#002094", "outline": "#002094", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [105, 112, 29, 13], "text": "Auto", "font": "f12", "color": "#ffffff", "outline": "#00d58b", "align": "center", "valign": "middle"},
+  {"op": "fill", "rect": [136, 112, 32, 16], "color": "transparent"},
+  {"op": "text", "rect": [138, 113, 29, 13], "text": "Auto", "font": "f12", "color": "#002094", "outline": "#002094", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [137, 112, 29, 13], "text": "Auto", "font": "f12", "color": "#ffffff", "outline": "#00ff94", "align": "center", "valign": "middle"},
+  {"op": "fill", "rect": [168, 112, 32, 16], "color": "transparent"},
+  {"op": "text", "rect": [170, 113, 29, 13], "text": "Auto", "font": "f12", "color": "#002094", "outline": "#002094", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [169, 112, 29, 13], "text": "Auto", "font": "f12", "color": "#ffffff", "outline": "#20ffc5", "align": "center", "valign": "middle"},
+  {"op": "erase", "rect": [4, 111, 30, 13], "colors": ["#ffffff", "#dedeff", "#eeeeff", "#e6eeff", "#cdd5f6", "#d5deff", "#b4c5f6", "#a4bdf6", "#94b4f6"], "tolerance": 0},
+  {"op": "text", "rect": [4, 110, 30, 14], "text": "Back", "font": "f12", "color": "#ffffff", "outline": "#296aee", "align": "center", "valign": "middle"}
+ ]
+}

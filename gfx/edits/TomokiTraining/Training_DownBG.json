@@ -1,0 +1,13 @@
+{
+ "file": "_Data/TomokiTraining/Training_DownBG_LZ.NCGR",
+ "screen": "_Data/TomokiTraining/Training_DownBG.NSCR",
+ "ops": [
+  {"op": "fill", "rect": [19, 0, 85, 15], "color": "#417bff"},
+  {"op": "fill", "rect": [104, 0, 4, 11], "color": "#417bff"},
+  {"op": "text", "rect": [19, 0, 85, 15], "text": "Tomoki☆Training", "font": "f12", "color": "#ffffff", "outline": "#394aff", "valign": "middle"},
+  {"op": "erase", "rect": [136, 25, 67, 14], "colors": ["#0020f6", "#1031ee", "#2041ee", "#2952e6", "#29a4ff", "#3162ee", "#394aff", "#396ae6", "#397bde", "#415aff", "#416aff", "#417bff", "#4a83de", "#526af6", "#5294e6", "#5a9ce6", "#6273f6", "#62a4e6", "#738bf6", "#8394f6", "#8ba4ee", "#a4a4ff", "#b4bdff", "#c5cdff", "#cdd5ff", "#e6e6ff", "#eef6ff", "#ffffff"], "tolerance": 0},
+  {"op": "text", "rect": [136, 25, 97, 14], "text": "Growth Points", "font": "f12", "color": "#ffffff", "outline": "#1031ee", "valign": "middle", "bold": true},
+  {"op": "erase", "rect": [136, 97, 63, 18], "colors": ["#0020f6", "#1031ee", "#2041ee", "#2952e6", "#3162ee", "#396ae6", "#397bde", "#4a83de", "#526af6", "#5294e6", "#5a9ce6", "#6273f6", "#62a4e6", "#6a8bd5", "#738bf6", "#8394f6", "#8ba4ee", "#a4a4ff", "#b4bdff", "#c5cdff", "#cdd5ff", "#e6e6ff", "#eef6ff", "#ffffff"], "tolerance": 0},
+  {"op": "text", "rect": [136, 97, 63, 18], "text": "Point Cost", "font": "f12", "color": "#ffffff", "outline": "#1031ee", "valign": "middle", "bold": true}
+ ]
+}

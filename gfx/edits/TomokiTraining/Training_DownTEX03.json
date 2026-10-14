@@ -1,0 +1,13 @@
+{
+ "file": "_Data/TomokiTraining/Training_DownTEX03_LZ.NCBR",
+ "ops": [
+  {"op": "erase", "rect": [2, 3, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 3, 218, 26], "text": "More time to react to Happenings!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 35, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 35, 218, 26], "text": "I'll make it through any pinch!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 67, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 67, 218, 26], "text": "She's harder to upset, so you\ncan chain your attacks!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 99, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 99, 218, 26], "text": "Aim for smooth Communication!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12}
+ ]
+}

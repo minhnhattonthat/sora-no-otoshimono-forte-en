@@ -1,0 +1,8 @@
+{
+ "file": "_Data/AdvTalk/Interface_00_m_LZ.NCBR",
+ "ops": [
+  {"op": "fill", "rect": [0, 32, 192, 32], "color": "transparent"},
+  {"op": "text", "rect": [3, 34, 189, 13], "text": "Initializing backup memory...", "font": "f12", "color": "#ffffff"},
+  {"op": "text", "rect": [3, 50, 157, 13], "text": "Tomo☆Colle added.", "font": "f12", "color": "#ffffff"}
+ ]
+}

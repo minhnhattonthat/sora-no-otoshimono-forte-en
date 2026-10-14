@@ -1,0 +1,26 @@
+{
+ "file": "_Data/Trial/TrialInterface/Trial_Common_Interface_LZ.NCBR",
+ "_note": "4bpp; the logo rect uses palette bank 11 (purples): colours are bank-0 aliases of the indices",
+ "ops": [
+  {"op": "fill", "rect": [0, 176, 168, 32], "color": "transparent"},
+  {"op": "text", "rect": [1, 177, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [1, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [1, 181, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 177, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 181, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [5, 177, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [5, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [5, 181, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#5a5a5a", "outline": "#5a5a5a", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [2, 178, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [2, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [2, 180, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 178, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 180, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [4, 178, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [4, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [4, 180, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ffe600", "outline": "#ffe600", "align": "center", "valign": "middle"},
+  {"op": "text", "rect": [3, 179, 162, 26], "text": "Happening Time", "font": "comicz.ttf:20", "color": "#ee9400", "outline": "#ffe600", "align": "center", "valign": "middle"}
+ ]
+}

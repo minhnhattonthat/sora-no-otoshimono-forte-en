@@ -127,7 +127,7 @@ class Canvas:
 
     def _nearest(self, base, spec):
         r, g, b = int(spec[1:3], 16), int(spec[3:5], 16), int(spec[5:7], 16)
-        n = 16 if (self.bank is not None and self.char.bpp == 4) else len(self.pal)
+        n = 16 if self.char.bpp == 4 else min(256, len(self.pal))  # index must fit the pixel depth
         best, bi = None, 1
         for i in range(1, n):
             pr, pg, pb = self.pal[base + i] if base + i < len(self.pal) else (0, 0, 0)

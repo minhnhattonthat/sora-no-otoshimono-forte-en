@@ -1,0 +1,17 @@
+{
+ "file": "_Data/TomokiTraining/Training_DownTEX02_LZ.NCBR",
+ "ops": [
+  {"op": "erase", "rect": [2, 3, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 3, 218, 26], "text": "More time during Communication!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 35, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 35, 218, 26], "text": "Max it out and take your\nsweet time!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 67, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 67, 218, 26], "text": "The Feeling Gauge fills up faster!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 99, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 99, 218, 26], "text": "But Happenings get more likely,\nso watch out!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 131, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 131, 218, 26], "text": "The Feeling Gauge drains slower,\nand Happenings get rarer!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12},
+  {"op": "erase", "rect": [2, 163, 220, 26], "colors": ["#ffffff", "#ffe6f6", "#fff6ff", "#ffcdee", "#f64ac5", "#ff62cd", "#ff6acd", "#ff7bd5", "#ff83d5", "#ff8bd5", "#ff9cde", "#ff73cd", "#ffc5ee", "#ffd5ee"], "tolerance": 0},
+  {"op": "text", "rect": [3, 163, 218, 26], "text": "She'll fall for a cool gentleman's\ncharm in no time!", "font": "f12", "color": "#ffffff", "outline": "#f64ac5", "align": "center", "valign": "middle", "lineh": 12}
+ ]
+}
