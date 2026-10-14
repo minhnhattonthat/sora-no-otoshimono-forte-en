@@ -55,9 +55,9 @@ def swoosh(orig):
     d.polygon(body, fill=(16, 189, 246, 255))
     d.line([(112, 61), (102, 73), (94, 87), (87, 101)], fill=WHITE + (255,), width=2)
     d.line([(127, 61), (121, 72), (115, 86), (110, 101)], fill=WHITE + (255,), width=2)
-    # band: paint over フォルテ (kept band = white with a grey-blue line on top)
-    d.rectangle((130, 103, 180, 114), fill=WHITE + (255,))
-    d.rectangle((128, 115, 182, 121), fill=(0, 0, 0, 0))
+    # band right of OTOSHIMONO: only the thin grey-blue line (rows 101-103) stays; FORTE sits on the sky
+    d.rectangle((130, 104, 184, 121), fill=(0, 0, 0, 0))
+    d.rectangle((128, 115, 129, 121), fill=(0, 0, 0, 0))
     return out
 
 
@@ -113,7 +113,7 @@ def main():
     canvas = Image.new('L', (fm.width + 4 * SS, fm.height + 4 * SS))
     canvas.paste(fm, (2 * SS, 2 * SS))
     forte = sticker(canvas, BLUE, BLUE, 0, WHITE, 1, WHITE)
-    out.alpha_composite(forte, (133 - 2, 103 - 2))
+    out.alpha_composite(forte, (133 - 2, 105 - 2))
     out.save(os.path.join(HERE, 'logo_en.png'))
     fin_tint(out).save(os.path.join(HERE, 'logo_en_fin.png'))
 
