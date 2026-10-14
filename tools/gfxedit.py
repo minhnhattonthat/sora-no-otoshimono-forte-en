@@ -31,8 +31,11 @@ class Canvas:
         pal_path = spec.get('palette') or sibling(spec['file'], '.NCLR')
         self.pal, _ = gfx.palette(files[pal_path])
         self.screen = spec.get('screen')
+        self.cells = spec.get('cells')
         c = self.char
-        if self.screen:
+        if self.cells:
+            self._init_cells(files[self.cells], spec.get('cell', 0))
+        elif self.screen:
             raw = files[self.screen]
             self.nscr = bytearray(raw)
             s = gfx.section(raw, b'NRCS')
@@ -62,6 +65,57 @@ class Canvas:
             self.bank = None
         self.before = [row[:] for row in self.idx]
 
+    SIZES = {(0, 0): (8, 8), (0, 1): (16, 16), (0, 2): (32, 32), (0, 3): (64, 64),
+             (1, 0): (16, 8), (1, 1): (32, 8), (1, 2): (32, 16), (1, 3): (64, 32),
+             (2, 0): (8, 16), (2, 1): (8, 32), (2, 2): (16, 32), (2, 3): (32, 64)}
+
+    def _init_cells(self, ncer, cell):
+        """Compose OBJ cell `cell` of an NCER (1D mapping) into one canvas; remember where each pixel came from."""
+        d = gfx.container(gfx.unlz(ncer))
+        s = gfx.section(d, b'KBEC')
+        n, attr, off, mapping = struct.unpack_from('<HHII', d, s + 8)
+        esz = 16 if attr == 1 else 8
+        cbase = s + 8 + off
+        nobj, _, ooff = struct.unpack_from('<HHI', d, cbase + cell * esz)
+        obase = cbase + n * esz + ooff
+        shift = mapping & 3  # 1D boundary: 0 = 32 KB (index * 1 tile), 1 = 64 KB (x2), 2 = 128 KB (x4), 3 = 256 KB (x8)
+        c = self.char
+        objs = []
+        for i in range(nobj):
+            a0, a1, a2 = struct.unpack_from('<HHH', d, obase + 6 * i)
+            y = a0 & 0xFF
+            y = y - 256 if y >= 128 else y
+            x = a1 & 0x1FF
+            x = x - 512 if x >= 256 else x
+            w, h = self.SIZES[(a0 >> 14, a1 >> 14)]
+            tile = (a2 & 0x3FF) << shift
+            if c.bpp == 8:
+                tile //= 2
+            objs.append((x, y, w, h, tile, a1 >> 12 & 1, a1 >> 13 & 1, a2 >> 12))
+        x0 = min(o[0] for o in objs)
+        y0 = min(o[1] for o in objs)
+        self.w = max(o[0] + o[2] for o in objs) - x0
+        self.h = max(o[1] + o[3] for o in objs) - y0
+        self.idx = [[0] * self.w for _ in range(self.h)]
+        self.bank = [[0] * self.w for _ in range(self.h)] if c.bpp == 4 else None
+        self.src = {}  # (x, y) -> flat pixel index in char data
+        for x, y, w, h, tile, hf, vf, p in objs:
+            tpr = w // 8
+            for py in range(h):
+                for px in range(w):
+                    sx, sy = (w - 1 - px if hf else px), (h - 1 - py if vf else py)
+                    if c.linear:  # NCBR: each OBJ's pixels are a plain w x h bitmap
+                        k = tile * 64 + sy * w + sx
+                    else:
+                        t = tile + sy // 8 * tpr + sx // 8
+                        k = t * 64 + sy % 8 * 8 + sx % 8
+                    cx, cy = x - x0 + px, y - y0 + py
+                    if k < len(c.idx):
+                        self.idx[cy][cx] = c.idx[k]
+                        self.src[(cx, cy)] = k
+                    if self.bank:
+                        self.bank[cy][cx] = p
+
     def color(self, x, y, spec):
         if spec == 'transparent':
             return 0
@@ -88,6 +142,11 @@ class Canvas:
 
     def encode(self):
         c = self.char
+        if self.cells:
+            flat = list(c.idx)
+            for (x, y), k in self.src.items():
+                flat[k] = self.idx[y][x]
+            return c.encode(flat, self.orig), None
         if not self.screen:
             flat = [v for row in self.idx for v in row]
             return c.encode(flat + c.idx[len(flat):], self.orig), None
@@ -343,8 +402,8 @@ def apply(rom, ids):
             v = rom.read(ids[k])
             self[k] = v
             return v
-    files = Files()
     for p, spec in specs():
+        files = Files()  # fresh per spec: several specs may edit the same file (different cells) in turn
         cv = run(spec, files)
         char, nscr = cv.encode()
         rom.replace(ids[spec['file']], char)
