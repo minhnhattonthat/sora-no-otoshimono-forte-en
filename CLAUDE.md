@@ -8,7 +8,7 @@ Skill: translate-retro-game (H:/translation/sora-no-otoshimono-forte-dreamy-seas
 - Smoke:    copy the build first (see Emulator), then `python -X utf8 .claude/skills/translate-retro-game/scripts/emu.py work/run.nds --out work/qa/smoke --route-str "1500 -;4 a;300 -" --mash 30 --frames 3000 --smoke`
 - Text batches: `tools/batches.py split|check|merge|fit|status`; global term swap: `tools/retext.py "old=>new"`; review samples: `tools/pairs.py`.
 - Graphics: specs in gfx/edits/ (gfx/README.md), `tools/gfxedit.py orig|preview SPEC`; inventory docs/re/graphics.md.
-- Release:  not built yet (xdelta3 on PATH via scoop); never publish without the user.
+- Release:  `python -X utf8 tools/release.py vX.Y` -> release/*.zip (xdelta3 via scoop); never publish without the user.
 
 ## Emulator
 - DeSmuME QA fork qa-1 in `tools/desmume-qa/DeSmuME.exe` (gitignored). emu.py finds it. Headless, ~4 s per 900 frames.
@@ -40,4 +40,7 @@ Skill: translate-retro-game (H:/translation/sora-no-otoshimono-forte-dreamy-seas
 - QA routes: cold boot "1500 -;4 a;300 -" --mash 20 reaches Event Select ~f26000; A opens "Go to the next episode?"
   (default No: left, A). Trial tutorial menu needs d-pad, not touch. Pause > Skip passes a Trial scene.
 - Graphics specs use Windows fonts (arialbd, arialnb, comicz, segoeuib, ...): build on Windows.
-- Next: later-episode QA, release patch (tools/release.py) once the user approves.
+- QA played to the start of Ep4 (autoplay Lua work/qa/autoplay.lua: A-mash, Yes on next episode, Retry/Skip at
+  GAME OVER; Skip appears from the 2nd GAME OVER). Dark bands in Trial scenes are original behaviour.
+- v0.9 package built locally (release/, patched CRC32 DD7DAE0F); not published.
+- Next: user decision on publishing; optional logo; play-test Ep4+ / Training / endings.

@@ -25,7 +25,7 @@ def hashes(path):
 
 
 README = """Sora no Otoshimono Forte: Dreamy Season - English translation patch {version}
-(Heaven's Lost Property Forte: Dreamy Season, Nintendo DS, Kadokawa Games 2011)
+(Heaven's Lost Property Forte: Dreamy Season, Nintendo DS, Kadokawa Shoten)
 
 Unofficial fan translation. No ROMs are distributed; you need your own dump of the Japanese game.
 
@@ -53,6 +53,12 @@ NOTES
 - Names follow the official English anime (Funimation's Heaven's Lost Property); honorifics are kept.
 - Start a new game or load your existing save; savestates made with the Japanese ROM will not carry the new text.
 - Tested in DeSmuME. Voice acting is unchanged (Japanese).
+
+KNOWN ISSUES
+- The title-screen logo is the original Japanese logo.
+- Some staff-roll name readings are best guesses.
+- Play-tested through the start of Episode 4; later episodes, endings and Tomoki Training were checked
+  as text and images but not played. Please report problems.
 
 Credits: translation and hacking produced with AI assistance (Claude) under the direction of the project owner.
 Thanks to Suu Minazuki, Kadokawa and seventh chord for the original game.
