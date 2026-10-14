@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.nds binary
+*.png binary
+*.bin binary
+*.dat binary
+*.NFTR binary
+*.xdelta binary

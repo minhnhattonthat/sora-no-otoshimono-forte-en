@@ -1,0 +1,9 @@
+rom/
+build/
+work/
+dist/
+release/
+tools/desmume-qa/
+__pycache__/
+*.dst
+*.dsv
