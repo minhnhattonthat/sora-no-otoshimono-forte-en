@@ -20,7 +20,7 @@ Work only on the batch named in your dispatch. Do all translation yourself; do n
 
 ## Output: `work/tl/<batch>.out.tsv`, written with your file-write tool (not a shell heredoc)
 `id<TAB>English`, every input id exactly once, same order. Plain ASCII: straight quotes, `...`, `--`; `~` allowed for a
-drawn-out vowel; `♪` allowed. No tabs inside the English, no Japanese or full-width characters, no `\uXXXX`.
+drawn-out vowel; `♪`, `☆` and `♥` allowed where the Japanese has them (Ω in the Japanese is the game's heart -> ♥). No tabs inside the English, no Japanese or full-width characters, no `\uXXXX`.
 The insert tool word-wraps dialogue/narration itself (about 40 characters per line, 3 lines per box). Don't add line
 breaks. Write `\n` only where the Japanese deliberately breaks for effect (rare).
 
@@ -54,3 +54,7 @@ Files written and entry count; then any lines: `NEW TERM: jp -> en`, `UNSURE: id
 
 ## Notes from earlier batches
 - (pilot b000) Mikako's "会長、そういうのは..." is her talking about herself: "The President thinks...".
+- (b001-b012) Check `build/terms_<batch>.txt` before choosing a word for a recurring gag term: お手入れ is always
+  "pampering" ("Pampering Time"), 殺人チョップ "Killer Chop". Keep -san/-chan exactly where the Japanese has them.
+- Big-text SFX lines (`{1F}{xx}` codes): keep each code at the start of its line as in the Japanese.
+- Sugata's 部長 = "club head", never "President".

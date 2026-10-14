@@ -58,7 +58,7 @@ def encode_en(s):
             out += v
             continue
         for ch in v:
-            b = ch.encode('cp932')
+            b = ch.encode('cp932') if ch != '♥' else b'\x83\xb6'  # the font draws a heart at Ω (0x83B6)
             if len(b) == 2:
                 pad()
             out += b

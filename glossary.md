@@ -73,5 +73,28 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 行動選択 | Action Select | | | |
 | 空美 | Sorami | | | |
 
+| お手入れ / お手入れタイム | pampering / Pampering Time | | clothes-care gag & mode; お手入れタイム☆ＡＧＡＩＮ -> Pampering Time☆AGAIN! | maintenance, grooming, care |
+| 殺人チョップ | Killer Chop | | Sohara's chop; そはらチョップ -> Sohara Chop | murder-chop |
+| 知性化 | made sentient / gained sentience | | the item that gives clothes minds | |
+| 部長 (Sugata) | club head | | never "President" (that is Mikako) | |
+| コミュニケーションモード | Communication Mode | | | |
+| フィーリングゲージ | Feeling Gauge | | | |
+| ハプニングタイム | Happening Time | | | |
+| タッチマーカー / スクラッチマーカー | Touch Marker / Scratch Marker | | | |
+| フィニッシュマーク | Finish Mark | | | |
+| 危険度シグナル | Danger Signal | | | |
+| 特殊反応 | Special Reaction | | | |
+| 操作説明 / 基本説明 / 応用説明 | Controls / Basics / Advanced | | tutorial menu labels | |
+| トモ坊 | Tomo-boy | | | |
+| 全裸王国 | Naked Kingdom | | | |
+| 量子変換器 | Quantum Converter | | | |
+| 超々超音波振動子 | Ultra-Ultrasonic Oscillator | | Nymph's attack | |
+| エロ本 | porn magazine | | | |
+| 美香子様 | Lady Mikako | | | |
+| ナース服 / チアガール服 / ドレス | nurse outfit / cheerleader outfit / dress | | capitalised when addressed as a name | |
+
 ## Decisions from earlier batches
-- (none yet)
+- (b001-b012) -san kept wherever the Japanese has it (Sohara-san from mock-polite Tomoki, Ikaros-san, Mitsuki-san from
+  Mikako, Tomoki-san from the clothes); Mikako says Ikaros-chan.
+- Silence lines …… / ………… -> "......" (six dots), whatever the Japanese length.
+- ☆ and ♪ and ♥ may be used where the Japanese has them (Ω in the Japanese is the game's heart glyph -> ♥).
