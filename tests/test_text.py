@@ -32,6 +32,27 @@ def test_rewrite_identity_and_order():
         assert seen == [(k, b) for k, _, b in extract.strings(p, d, NAMES)], p
 
 
+def test_everything_translated():
+    import json
+    import arm9text
+    import misctext
+    missing = []
+    for p, _ in SCRIPTS:
+        key = extract.key_of(p)
+        n = len(json.load(open(os.path.join(insert.ROOT, 'text', 'ja', key + '.json'), encoding='utf-8'))['lines'])
+        en = insert.load_en(key)
+        missing += [f'{key}#{i}' for i in range(n) if i not in en]
+    assert not missing, missing[:10]
+    tr = misctext.translator(misctext.load_en())
+    ja = json.load(open(os.path.join(insert.ROOT, 'text', 'ja', 'misc.json'), encoding='utf-8'))
+    assert not [s for v in ja.values() for s in v if tr(s.encode('cp932')) is None]
+    a9 = open(os.path.join(insert.ROOT, 'work', 'arm9.bin'), 'rb').read() if os.path.exists(
+        os.path.join(insert.ROOT, 'work', 'arm9.bin')) else None
+    if a9:
+        en = arm9text.load_en()
+        assert not [t for _, _, t in arm9text.slots(a9) if t not in en]
+
+
 def test_names_fit_plate():
     import batches
     adv = batches.adv_table()
