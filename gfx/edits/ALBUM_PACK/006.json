@@ -1,0 +1,91 @@
+{
+  "_note": "Album page: アルバム -> Album; 達成率 (completion, number + % drawn by game) -> Done, as EmblemList_BG.",
+  "file": "_Data/Gallery/ALBUM_PACK.bin#6",
+  "palette": "_Data/Gallery/ALBUM_PACK.bin#7",
+  "screen": "_Data/Gallery/ALBUM_PACK.bin#8",
+  "ops": [
+    {
+      "op": "fill",
+      "rect": [
+        21,
+        1,
+        46,
+        13
+      ],
+      "color": "#f65acd"
+    },
+    {
+      "op": "text",
+      "rect": [
+        22,
+        1,
+        46,
+        13
+      ],
+      "text": "Album",
+      "font": "arialbd.ttf:11",
+      "color": "#ffffff",
+      "outline": "#ee31de",
+      "align": "left",
+      "valign": "middle",
+      "wrap": false
+    },
+    {
+      "op": "erase",
+      "rect": [
+        4,
+        166,
+        34,
+        13
+      ],
+      "colors": [
+        "#0862bd",
+        "#106ac5",
+        "#2073c5",
+        "#3183d5",
+        "#318bd5",
+        "#419ce6",
+        "#4a8bbd",
+        "#4aa4d5",
+        "#52b4f6",
+        "#629cde",
+        "#62cdff",
+        "#6abdff",
+        "#7bace6",
+        "#7bc5ff",
+        "#7bcdff",
+        "#83cdff",
+        "#8bcdff",
+        "#8bd5ff",
+        "#94d5ff",
+        "#a4bdd5",
+        "#a4deff",
+        "#acdeff",
+        "#b4e6ff",
+        "#cdeeff",
+        "#def6ff",
+        "#eeeef6",
+        "#eeffff",
+        "#fff6ff",
+        "#ffffff"
+      ],
+      "tolerance": 0
+    },
+    {
+      "op": "text",
+      "rect": [
+        5,
+        166,
+        33,
+        13
+      ],
+      "text": "Done",
+      "font": "arialbd.ttf:11",
+      "color": "#ffffff",
+      "outline": "#106ac5",
+      "align": "left",
+      "valign": "middle",
+      "wrap": false
+    }
+  ]
+}

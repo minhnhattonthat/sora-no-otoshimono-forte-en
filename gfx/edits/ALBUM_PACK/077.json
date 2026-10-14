@@ -1,0 +1,33 @@
+{
+  "_note": "Y + D-pad hint: スクロール -> Scroll (layout #76 rect 0..79).",
+  "file": "_Data/Gallery/ALBUM_PACK.bin#77",
+  "palette": "_Data/Gallery/ALBUM_PACK.bin#78",
+  "ops": [
+    {
+      "op": "fill",
+      "rect": [
+        40,
+        0,
+        40,
+        16
+      ],
+      "color": "transparent"
+    },
+    {
+      "op": "text",
+      "rect": [
+        40,
+        0,
+        40,
+        16
+      ],
+      "text": "Scroll",
+      "font": "arialbd.ttf:10",
+      "color": "#4a4a52",
+      "outline": "#ffffff",
+      "align": "left",
+      "valign": "middle",
+      "wrap": false
+    }
+  ]
+}
