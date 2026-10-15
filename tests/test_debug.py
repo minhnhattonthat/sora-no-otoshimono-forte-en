@@ -19,3 +19,5 @@ def test_plan():
     assert dbg.plan('ending7')[0] == {'STORY': "'6,7'"}
     assert dbg.plan('album')[0]['PROC'] == '13'
     assert dbg.plan('scene:20')[0]['PROC'] == '20'
+    ev = dbg.plan('events4')[0]['EVENTS'].strip("'").split()
+    assert len(ev) == 18 and ev[0] == '3,10,1'

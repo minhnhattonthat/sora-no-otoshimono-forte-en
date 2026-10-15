@@ -1,12 +1,14 @@
 # Debug jumps for headless QA (tools/debug/)
 
 No ROM patch: everything is Lua on the DeSmuME QA fork (`jump.lua`, appended to emu.py's driver) plus
-`autoplay.lua` (copy of the QA autoplayer: mashes A, Yes on "Go to the next episode?", Retry/Skip at GAME OVER,
-backs out of Data Save/help with B). `dbg.py` wraps emu.py with a blank battery save and the right variables.
+`autoplay.lua` (the QA autoplayer: mashes A, Yes on "Go to the next episode?", Retry/Skip at GAME OVER,
+backs out of Data Save/help with B). This copy fixes an Event Select stall of `work/qa/autoplay.lua`: a second A
+while the "Go to the next episode?" dialog opens picked No, so the run looped there forever. `dbg.py` wraps emu.py with a blank battery save and the right variables.
 
 ```
 python -X utf8 tools/debug/dbg.py ep4                     # New Game -> Episode 4 part 000 -> autoplay (60k frames)
 python -X utf8 tools/debug/dbg.py ep6 --frames 160000 --state-every 20000 --var SKIP=1   # Ep6 to the ending
+python -X utf8 tools/debug/dbg.py events4 --state-every 20000   # all 18 Ep4 side events in turn, then the story
 python -X utf8 tools/debug/dbg.py ending3                 # ending 3 + staff roll + Clear Data save screen
 python -X utf8 tools/debug/dbg.py cleardata               # ending 7, saves Clear Data -> work/qa/dbg_cleardata/run_final.dsv
 python -X utf8 tools/debug/dbg.py album                   # any screen: album roster titles intimacy training events
@@ -23,8 +25,8 @@ frame ~40 (no shots after start): rerun. Four parallel runs drop to ~40 fps each
 | var | effect |
 |---|---|
 | `STORY='ch,num'` | first story script load becomes `Story/ChapterCC/NNN.dat`; chapter byte set too, so Action/Event Select and later parts follow. ch 0-based (Episode 4 = 3); num 0/100/200/300 parts, ch 6 num 1-7 endings (1 Ikaros, 2 Nymph, 3 Astraea, 4 Sohara, 5 Mikako, 6 Sugata, 7 Tomoko), ch 7 num 0 epilogue/tutorial |
-| `EVENTS='3,10,1 3,30,1 ..'` | each later story part picked as NEXT is replaced by the next side event `Chara/ChapterCC/AA/BB_000.dat` (= text/en/chara/chCC_AA_BB_000.json); the story resumes after the list |
-| `CHOICE='last'` / `'first'` / `n` | force script choices (dbg.py sets `last` for ep/ending: skips "View the tutorial?") |
+| `EVENTS='3,10,1 3,30,1 ..'` | each later story part picked as NEXT is replaced by the next side event `Chara/ChapterCC/AA/BB_000.dat` (= text/en/chara/chCC_AA_BB_000.json); the story resumes after the list. `EVENTS_NOW=1` also replaces part 000 (straight into the first event, without the episode's story flags) |
+| `CHOICE='last'` / `'first'` / `n` | force script choices (dbg.py sets `last` for ep1 only, to leave the tutorial menu). Choices can have options hidden by flags; forcing an index past the visible ones soft-locks the script (seen in ch03_11_01 "sandcastle"), so leave it unset elsewhere |
 | `SKIP=1` | GAME OVER menu always takes Skip (even the first time) -> scene counts as given up, story continues |
 | `PROC=id` | replace the first switch to the title menu (scene 3) with scene `id`; `PROC_FROM=-1` = next switch of any kind |
 | `UNLOCK=1` | at each title-menu switch: all Album items, all communication scenes cleared + Advanced, Tomo-Colle menu, clear count 1, all 28 Titles, all Help topics, 9999 Growth Points, stats level >= 1 |

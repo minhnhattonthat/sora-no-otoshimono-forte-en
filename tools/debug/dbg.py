@@ -5,6 +5,8 @@
 TARGET:
     ep1 .. ep6        start a New Game and replace the first story script with that episode's part 000, then autoplay
                       (Action Select, Event Select, communication scenes via Retry/Skip, next parts, Data Save).
+    events1 .. events6  like epN with SKIP=1, but every side event of the episode plays in turn (EVENTS), then
+                      the story goes on (170k frames; Ep4 = 18 events, ~90k frames)
     ending1 .. ending7  play ending N (Story/Chapter06/00N), the staff roll, then the Clear Data save screen.
     cleardata         ending7, then save Clear Data to slot 1: OUT/<rom>.dsv is a cleared save (use it with --sav;
                       Continue / Free Communication / New Game+ need it).
@@ -47,6 +49,12 @@ def plan(target):
         return {'STORY': "'%d,0'" % (int(target[2:]) - 1)}, True, 60000
     if target.startswith('ending') and target[6:].isdigit() and 1 <= int(target[6:]) <= 7:
         return {'STORY': "'6,%d'" % int(target[6:])}, True, 45000
+    if target.startswith('events') and target[6:].isdigit() and 1 <= int(target[6:]) <= 6:
+        ch = int(target[6:]) - 1  # every side event of the episode (text/en/chara/chCC_AA_BB_000.json), then story
+        evs = sorted(f[2:10] for f in os.listdir(os.path.join(ROOT, 'text', 'en', 'chara'))
+                     if f.startswith('ch%02d_' % ch))
+        ids = ' '.join('%d,%d,%d' % tuple(int(p) for p in e.split('_')) for e in evs)
+        return {'STORY': "'%d,0'" % ch, 'EVENTS': "'%s'" % ids, 'SKIP': '1'}, True, 170000
     if target == 'cleardata':
         return {'STORY': "'6,7'", 'SAVECLEAR': '1'}, True, 30000
     if target == 'title':
@@ -90,7 +98,7 @@ def main(argv):
     if '--shot-every' not in extra:
         cmd += ['--shot-every', '100']
     lua_vars.setdefault('SCENELOG', '1')
-    if autoplay:
+    if target == 'ep1':  # skip the tutorial menu; forcing choices elsewhere can pick a hidden option and soft-lock
         lua_vars.setdefault('CHOICE', "'last'")
     for k, v in lua_vars.items():
         cmd += ['--var', '%s=%s' % (k, v)]

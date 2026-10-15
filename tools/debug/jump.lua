@@ -25,7 +25,8 @@ local nev = 0
 L.on_exec(LOADID, function()
   local sp = memory.getregister("arm9.r13")
   local typ = memory.readdword(sp)
-  if typ == 2 and nev < #events and memory.getregister("arm9.r2") > 0 and (jumped or not jch) then
+  -- EVENTS_NOW=1: also replace part 000 (the episode opening), i.e. go straight into the first event.
+  if typ == 2 and nev < #events and (memory.getregister("arm9.r2") > 0 or EVENTS_NOW) and (jumped or not jch) then
     nev = nev + 1
     local e = events[nev]
     if e then

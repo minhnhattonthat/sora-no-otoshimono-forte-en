@@ -83,10 +83,23 @@ L.on_frame(function(f)
       local o = 11 + (y * 256 + x) * 4
       return shot:byte(o + 2) * 65536 + shot:byte(o + 3) * 256 + shot:byte(o + 4)
     end
-    if shot and px(128, 300) == 0x245DFF and px(20, 312) == 0x41798E then
-      L.press("left", 8); L.press("-", 20)
+    -- The dialog floats with the Event Select card (seen up to ~90 px higher/lower), so search for its blue frame
+    -- with the pale pink header 88 px left and 10 px up (tools/debug copy; the work/qa original checks one spot).
+    -- The dialog ignores input while it opens: wait before "left", or No stays selected and A closes it.
+    local found
+    if shot then
+      for y = 210, 382, 2 do
+        for x = 100, 156, 2 do
+          if px(x, y) == 0x245DFF and px(x - 88, y - 10) == 0xFFEFF7 then found = { x, y }; break end
+        end
+        if found then break end
+      end
+    end
+    if found then
+      L.press("-", 30); L.press("left", 8); L.press("-", 30)
     end
     L.press("a", 8)
-    L.press("-", 12)
+    -- In Event Select (scene 20) give the dialog time to open; a second A while it opens picks the default No.
+    L.press("-", memory.readdword(0x020E4A58) == 20 and 80 or 12)
   end
 end)
