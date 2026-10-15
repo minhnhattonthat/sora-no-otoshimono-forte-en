@@ -2,6 +2,7 @@
 
 - `script.md` — story script .dat format, opcodes, text encoding, renderer.
 - `research.md` — prior work, names, game structure (web research 2026-10-14).
+- `debug.md` — `tools/debug/` headless jumps (episodes, endings, screens, unlocks, Clear Data) + scene ids and RAM map.
 
 ## ROM
 - `rom/sora-forte.nds`: game code TFLJ, title `SORAOTO-D-S`. MD5 cb616513ee0e8b2c39e3ae0a28b8a924,
