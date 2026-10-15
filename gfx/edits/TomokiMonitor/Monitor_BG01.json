@@ -20,6 +20,6 @@
     {"op": "text", "rect": [70, 78, 66, 16], "text": "Pervert Gentleman", "font": "HATTEN.TTF:11", "color": "#f6f6ff", "outline": "#290818", "align": "left", "valign": "top", "wrap": false},
     {"op": "text", "rect": [70, 92, 66, 16], "text": "Survival Instinct", "font": "HATTEN.TTF:12", "color": "#f6f6ff", "outline": "#290818", "align": "left", "valign": "top", "wrap": false},
     {"op": "text", "rect": [70, 107, 66, 16], "text": "Charm", "font": "HATTEN.TTF:12", "color": "#f6f6ff", "outline": "#290818", "align": "left", "valign": "top", "wrap": false},
-    {"op": "text", "rect": [149, 128, 80, 16], "text": "Growth Points", "font": "arialbi.ttf:11", "color": "#fff6f6", "outline": "#947b73", "align": "left", "valign": "top", "wrap": false}
+    {"op": "text", "rect": [149, 128, 60, 16], "text": "Growth Pts", "font": "arialbi.ttf:11", "color": "#fff6f6", "outline": "#947b73", "align": "left", "valign": "top", "wrap": false}
   ]
 }

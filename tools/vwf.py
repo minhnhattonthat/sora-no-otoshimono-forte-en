@@ -90,8 +90,10 @@ def font_widths(nftr):
 # ASCII byte -> Shift-JIS code of the symbol drawn there: ^ = ☆, ` = ♪, | = heart (the font's Ω glyph)
 SYMBOLS = {0x5E: 0x8199, 0x60: 0x81F4, 0x7C: 0x83B6}  # textfmt.SYMBOLS maps the characters to these bytes
 
-# 11x11 1 bpp cells, top rows only; shaped like the font's comma
-GLYPHS = {0x27: ['##', '##', '.#', '#.'], 0x22: ['##.##', '##.##', '.#..#', '#..#.']}
+# 11x11 1 bpp cells, top rows only; quotes shaped like the font's comma, < > as chevrons (the font's read as parens)
+GLYPHS = {0x27: ['##', '##', '.#', '#.'], 0x22: ['##.##', '##.##', '.#..#', '#..#.'],
+          0x3E: ['', '', '', '#...', '.##.', '...#', '.##.', '#...'],
+          0x3C: ['', '', '', '...#', '.##.', '#...', '.##.', '...#']}
 
 
 def glyph_index(f, code):

@@ -91,6 +91,7 @@ def width(line, adv):
     w = 0
     for i in range(0, len(b), 2):
         if b[i] == 0x1b:
+            w += 24 if b[i + 1] == 0x16 else 0  # {16}{15}/{16}{17} draw a two-cell dash (measured in-game)
             continue
         w += 12 if b[i] >= 0x80 else adv[b[i]] + adv[b[i + 1]]
     return w
