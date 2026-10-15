@@ -42,5 +42,8 @@ Skill: translate-retro-game (H:/translation/sora-no-otoshimono-forte-dreamy-seas
 - Graphics specs use Windows fonts (arialbd, arialnb, comicz, segoeuib, ...): build on Windows.
 - QA played to the start of Ep4 (autoplay Lua work/qa/autoplay.lua: A-mash, Yes on next episode, Retry/Skip at
   GAME OVER; Skip appears from the 2nd GAME OVER). Dark bands in Trial scenes are original behaviour.
-- v0.9 package built locally (release/, patched CRC32 DD7DAE0F); not published.
-- Next: user decision on publishing; optional logo; play-test Ep4+ / Training / endings.
+- Debug jumps: `python -X utf8 tools/debug/dbg.py ep4|events5|ending3|training|album|...` (docs/re/debug.md).
+  Covered Ep1-6, all side events, 7 endings + staff roll, Clear Data, all unlock screens.
+- English logo (MainTitle/logo_en.py) on title, episode logo, staff roll, options.
+- v1.0 package built locally (release/, patched CRC32 1F211647); not published.
+- Next: user decision on publishing.
