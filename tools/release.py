@@ -54,11 +54,13 @@ NOTES
 - Start a new game or load your existing save; savestates made with the Japanese ROM will not carry the new text.
 - Tested in DeSmuME. Voice acting is unchanged (Japanese).
 
+- English logo after the official "Heaven's Lost Property Forte" logo.
+
 KNOWN ISSUES
-- The title-screen logo is the original Japanese logo.
-- Some staff-roll name readings are best guesses.
-- Play-tested through the start of Episode 4; later episodes, endings and Tomoki Training were checked
-  as text and images but not played. Please report problems.
+- Some staff-roll name readings are best guesses; where Japanese credits crossed character art the
+  cleaned-up area is slightly blurred.
+- Tested in an emulator through all episodes, side events, all 7 endings and the unlockable modes, but
+  not on hardware. Please report problems.
 
 Credits: translation and hacking produced with AI assistance (Claude) under the direction of the project owner.
 Thanks to Suu Minazuki, Kadokawa and seventh chord for the original game.
