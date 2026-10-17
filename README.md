@@ -33,3 +33,9 @@ Staff-roll name readings are partly guesses (`docs/re/graphics.md`); corrections
 
 Translation and hacking were produced with AI assistance (Claude). Thanks to Suu Minazuki, Kadokawa and seventh chord
 for the original game.
+
+## Support
+
+If you enjoy this translation, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minhnhattonthat)
