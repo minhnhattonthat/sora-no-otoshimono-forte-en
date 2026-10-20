@@ -9,6 +9,9 @@ Download the zip from the [Releases](../../releases) page and apply the `.xdelta
 (or Delta Patcher / xdelta UI). Expected original ROM: 134,217,728 bytes, MD5 `cb616513ee0e8b2c39e3ae0a28b8a924`,
 SHA-1 `c0a72e86c250ab8b4c8eeee9834a488328e805ee`. Details are in the release README.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 ## What's translated
 
 All story, character-event and touch-mode dialogue, choices, speaker names, menus, help, tutorials, event titles,

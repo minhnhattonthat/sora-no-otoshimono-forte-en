@@ -30,6 +30,7 @@ Skill: translate-retro-game (H:/translation/sora-no-otoshimono-forte-dreamy-seas
 - Text: pad to even bytes before control codes (insert does it); `{1F}{xx}` SFX lines re-centred automatically;
   overflow > 3 lines spills into a second box; ☆ ♪ ♥ drawn from ASCII slots ^ ` |.
 - Speaker plates <= 72 px. Choices <= 200 px.
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Status (2026-10-15)
 - Done: engine (VWF, overflow boxes), all 20,046 script strings translated + merged, names, misc files, arm9 strings,
