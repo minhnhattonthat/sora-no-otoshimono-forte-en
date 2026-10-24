@@ -1,0 +1,2 @@
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too).
+c0a72e86c250ab8b4c8eeee9834a488328e805ee  rom/sora-forte.nds

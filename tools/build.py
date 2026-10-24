@@ -8,11 +8,13 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
+import check_rom  # noqa: E402
 import nds  # noqa: E402
 import romfs  # noqa: E402
 
 
 def build(out, identity=False):
+    check_rom.check()
     _, ids = romfs.load()
     rom = nds.Rom(romfs.ROM)
     if not identity:

@@ -2,7 +2,7 @@
 
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
 
-## Rulings (user, 2026-10-14)
+## Rulings (user, 2026-10-14; options and reasons in docs/decisions.md)
 - Honorifics kept, hyphenated (Sugata-senpai, Tomo-chan, Sohara-chan). Name order: given name first (Tomoki Sakurai).
 - Romanisation source: Funimation anime "Heaven's Lost Property" (the manga had no English release). Hepburn without
   long-vowel marks for anything not in it (Eishiro, not Eishirou).

@@ -1,7 +1,17 @@
-# RE notes index
+# Reverse-engineering notes
+
+One file per subsystem. Mark every finding with how far it is proven, so a later session doesn't build on a guess:
+
+- **verified** - and how: a decoded known string, a corrupt-and-boot test, a breakpoint hit on the drawing path, a
+  passing roundtrip test. Name the test or savestate.
+- **guess** - and why it seems likely (byte pattern, another game, an earlier patch's notes). Promote it to verified
+  before code depends on it.
+
+Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 - `script.md` — story script .dat format, opcodes, text encoding, renderer.
 - `research.md` — prior work, names, game structure (web research 2026-10-14).
+- `graphics.md` — graphics inventory, gfx/edits specs, staff-roll readings (21 unverified).
 - `debug.md` — `tools/debug/` headless jumps (episodes, endings, screens, unlocks, Clear Data) + scene ids and RAM map.
 
 ## ROM

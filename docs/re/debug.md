@@ -2,7 +2,7 @@
 
 No ROM patch: everything is Lua on the DeSmuME QA fork (`jump.lua`, appended to emu.py's driver) plus
 `autoplay.lua` (the QA autoplayer: mashes A, Yes on "Go to the next episode?", Retry/Skip at GAME OVER,
-backs out of Data Save/help with B). This copy fixes an Event Select stall of `work/qa/autoplay.lua`: a second A
+backs out of Data Save/help with B). This copy fixes an Event Select stall of `tools/lua/autoplay.lua`: a second A
 while the "Go to the next episode?" dialog opens picked No, so the run looped there forever. `dbg.py` wraps emu.py with a blank battery save and the right variables.
 
 ```
