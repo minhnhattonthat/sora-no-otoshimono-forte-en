@@ -9,15 +9,20 @@ no game data you can play; you need your own dump of the Japanese game (game cod
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
-**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
-helps most.
+## Translation status
 
-## What's translated
+| Part | Status |
+|---|---|
+| Dialogue / story (story, character events, touch mode, choices, speaker names) | Translated |
+| Menus, help, tutorials, event titles, save screens, system messages | Translated |
+| Title logo and graphics with text | Translated (logo redrawn after the official English logo) |
+| Staff roll | Translated (some name readings are guesses) |
+| Voiced lines | Left in Japanese (voice acting unchanged) |
 
-All story, character-event and touch-mode dialogue, choices, speaker names, menus, help, tutorials, event titles,
-save screens, staff roll, system messages and the logo. Names follow Funimation's anime release; honorifics are kept.
-Voices stay Japanese. Tested in DeSmuME only (not on hardware). Staff-roll name readings are partly guesses
-(`docs/re/graphics.md`); corrections welcome.
+Names follow Funimation's anime release; honorifics are kept. Tested in DeSmuME only (not on hardware).
+
+Known issues: 21 staff-roll name readings are unverified (`docs/re/graphics.md`), and where Japanese credits crossed
+character art the cleaned-up area is slightly blurred; corrections welcome.
 
 ## What's here
 
